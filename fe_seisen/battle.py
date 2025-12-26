@@ -3,28 +3,31 @@ import json
 
 CONFIG = {
     'player': {
-        'hp': 31,
-        'hit': 46,
-        'def': 9,
-        'atk': 22,
-        'lev': 7,
+        'hp': 21,
+        'hit': 56,
+        'def': 1,
+        'atk': 13,
+        'lev': 3,
+        'spd': 13,
+        'skl': 4,
+        'skill': ['inori', 'renzoku'],
         'grow': {
-            'mhp': 60,
-            'str': 50,
-            'mgc': 5,
+            'mhp': 50,
+            'str': 10,
+            'mgc': 30,
             'skl': 10,
-            'spd': 20,
-            'luk': 40,
-            'def': 20,
-            'mdf': 10,
+            'spd': 10,
+            'luk': 30,
+            'def': 10,
+            'mdf': 40,
         },
     },
     'enemy': {
-        'hp': 63,
-        'hit': 39,
-        'def': 13,
-        'atk': 34,
-        'lev': 23,
+        'hp': 44,
+        'hit': 55,
+        'def': 9,
+        'atk': 21,
+        'lev': 14,
     }
 }
 
@@ -35,7 +38,7 @@ inori = False
 
 
 RAND = None
-rand_index = 8119
+rand_index = 0
 
 f = open('log.txt', 'w')
 
@@ -70,6 +73,23 @@ def battle():
         print('LOSE', file=f)
 
 
+def is_renzoku(skill, spd):
+    if 'renzoku' not in skill:
+        return False
+
+    r = next_rand()
+
+    return r < spd + 20
+
+
+def is_hissatsu(skill, skl):
+    if 'hissatsu' not in skill:
+        return False
+
+    r = next_rand()
+
+    return r < skl
+
 
 def player_attack():
     global enemy_hp
@@ -83,12 +103,48 @@ def player_attack():
     if dmg <= 0:
         dmg = 1
 
+    renzoku = is_renzoku(CONFIG['player']['skill'], CONFIG['player']['spd'])
+
     r = next_rand()
 
-    if r >= hit:
+    if r >= hit and not renzoku:
         return False
+    elif r >= hit and renzoku:
+        pass
+    else:
+        if 'hissatsu' in CONFIG['player']['skill']:
+            r = next_rand()
 
-    enemy_hp -= dmg
+            if r < CONFIG['player']['skl']:
+                dmg2 = atk * 2 - def_
+                enemy_hp -= dmg2
+            else:
+                enemy_hp -= dmg
+        else:
+            enemy_hp -= dmg
+
+    if enemy_hp <= 0:
+        return True
+
+    if renzoku:
+        r = next_rand()
+
+        if r >= hit:
+            return False
+        else:
+            if 'hissatsu' in CONFIG['player']['skill']:
+                r = next_rand()
+
+                if r < CONFIG['player']['skl']:
+                    dmg2 = atk * 2 - def_
+                    enemy_hp -= dmg2
+                else:
+                    enemy_hp -= dmg
+            else:
+                enemy_hp -= dmg
+
+            if enemy_hp <= 0:
+                return True
 
     return enemy_hp <= 0
 
@@ -118,6 +174,9 @@ def enemy_attack():
 
 def do_inori():
     global enemy_hit, inori
+
+    if 'inori' not in CONFIG['player']['skill']:
+        return
 
     if inori:
         return
@@ -188,6 +247,6 @@ def next_rand():
     return r
 
 
-for i in range(8234, 8334):
+for i in range(9464, 9564):
     rand_index = i
     battle()
