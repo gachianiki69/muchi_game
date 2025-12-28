@@ -5,13 +5,13 @@ CONFIG = {
     'first_attack': 'player',
     'player': {
         'hp': 47,
-        'hit': 68,
+        'hit': 98,
         'def': 16,
         'atk': 36,
         'lev': 17,
         'spd': 10,
-        'skl': 14,
-        'skill': ['tsuigeki'],
+        'skl': 19,
+        'skill': ['tsuigeki', 'hissatsu'],
         'grow': {
             'mhp': 60,
             'str': 30,
@@ -25,7 +25,7 @@ CONFIG = {
     },
     'enemy': {
         'hp': 63,
-        'hit': 54,
+        'hit': 44,
         'def': 13,
         'atk': 36,
         'lev': 23,
