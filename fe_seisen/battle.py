@@ -2,32 +2,34 @@ import json
 
 
 CONFIG = {
+    'first_attack': 'player',
     'player': {
-        'hp': 21,
-        'hit': 56,
-        'def': 1,
-        'atk': 13,
-        'lev': 3,
-        'spd': 13,
-        'skl': 4,
-        'skill': ['inori', 'renzoku'],
+        'hp': 41,
+        'hit': 74,
+        'def': 3,
+        'atk': 29,
+        'lev': 12,
+        'spd': 10,
+        'skl': 34,
+        'skill': ['tsuigeki'],
         'grow': {
-            'mhp': 50,
+            'mhp': 70,
             'str': 10,
-            'mgc': 30,
-            'skl': 10,
-            'spd': 10,
-            'luk': 30,
-            'def': 10,
-            'mdf': 40,
+            'mgc': 40,
+            'skl': 20,
+            'spd': 50,
+            'luk': 20,
+            'def': 20,
+            'mdf': 10,
         },
     },
     'enemy': {
-        'hp': 44,
-        'hit': 55,
-        'def': 9,
-        'atk': 21,
-        'lev': 14,
+        'hp': 63,
+        'hit': 45,
+        'def': 5,
+        'atk': 34,
+        'lev': 23,
+        'skill': [],
     }
 }
 
@@ -55,16 +57,40 @@ def battle():
     enemy_hit = CONFIG['enemy']['hit']
     inori = False
 
-    while True:
-        r = player_attack()
+    if CONFIG['first_attack'] != 'enemy':
+        while True:
+            r = player_attack()
 
-        if r:
-            break
+            if r:
+                break
 
-        r = enemy_attack()
+            r = enemy_attack()
 
-        if r:
-            break
+            if r:
+                break
+
+            if 'tsuigeki' in CONFIG['player']['skill']:
+                r = player_attack()
+
+                if r:
+                    break
+    else:
+        while True:
+            r = enemy_attack()
+
+            if r:
+                break
+
+            r = player_attack()
+
+            if r:
+                break
+
+            if 'tsuigeki' in CONFIG['enemy']['skill']:
+                r = enemy_attack()
+
+                if r:
+                    break
 
     if player_hp > 0:
         lvup = level_up()
@@ -197,7 +223,9 @@ def level_up():
 
     r = next_rand()
 
-    if r < CONFIG['player']['grow']['mhp']:
+    if r < CONFIG['player']['grow']['mhp'] - 100:
+        lvup.append('MHP2')
+    elif r < CONFIG['player']['grow']['mhp']:
         lvup.append('MHP')
 
     r = next_rand()
@@ -247,6 +275,6 @@ def next_rand():
     return r
 
 
-for i in range(9464, 9564):
+for i in range(12023, 12123):
     rand_index = i
     battle()
