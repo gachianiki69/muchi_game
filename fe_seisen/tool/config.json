@@ -1,0 +1,32 @@
+{
+    "first_attack": "player",
+    "player": {
+        "hp": 46,
+        "hit": 64,
+        "def": 16,
+        "atk": 32,
+        "lev": 16,
+        "spd": 10,
+        "skl": 41,
+        "skill": ["hissatsu"],
+        "grow": {
+            "mhp": 80,
+            "str": 40,
+            "mgc": 5,
+            "skl": 30,
+            "spd": 20,
+            "luk": 20,
+            "def": 40,
+            "mdf": 5
+        }
+    },
+    "enemy": {
+        "hp": 64,
+        "hit": 70,
+        "def": 15,
+        "atk": 34,
+        "lev": 24,
+        "spd": 0,
+        "skill": ["yuusha"]
+    }
+}
