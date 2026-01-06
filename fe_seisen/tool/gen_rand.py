@@ -67,7 +67,7 @@ def generate():
     for i in range(55):
         r.append((tmp[i]+99) % 100)
 
-    for i in range(400):
+    for i in range(4000):
         calc(tmp)
         for j in range(55):
             r.append((tmp[j]+99)%100)

@@ -2,37 +2,37 @@ import json
 
 
 CONFIG = {
-    'start_index': 21078,
+    'start_index': 22838,
     'first_attack': 'player',
     'player': {
-        'hp': 47,
+        'hp': 49,
         'hit': 100,
-        'def': 17,
-        'atk': 32,
-        'lev': 17,
-        'spd': 24,
-        'skl': 15,
-        'skl2': 15,
-        'skill': ['hissatsu'],
+        'def': 19,
+        'atk': 38,
+        'lev': 23,
+        'spd': 18,
+        'skl': 30,
+        'skl2': 30,
+        'skill': ['tsuigeki', 'renzoku'],
         'grow': {
-            'mhp': 80,
-            'str': 40,
-            'mgc': 5,
-            'skl': 30,
-            'spd': 20,
+            'mhp': 50,
+            'str': 20,
+            'mgc': 10,
+            'skl': 20,
+            'spd': 30,
             'luk': 20,
-            'def': 40,
-            'mdf': 5,
+            'def': 30,
+            'mdf': 10,
         },
     },
     'enemy': {
-        'hp': 67,
-        'hit': 20,
-        'def': 18,
-        'atk': 36,
-        'lev': 27,
-        'spd': 0,
-        'skill': ['yuusha'],
+        'hp': 75,
+        'hit': 44,
+        'def': 21,
+        'atk': 30,
+        'lev': 30,
+        'spd': 11,
+        'skill': ['ootate'],
     }
 }
 
@@ -152,11 +152,29 @@ def is_ikari(skill, current_hp, initial_hp):
     if 'ikari' not in skill:
         return False
 
-    return current_hp < initial_hp / 2
+    return current_hp <= initial_hp / 2
 
 
 def is_yuusha(skill):
     return 'yuusha' in skill
+
+
+def is_ootate(skill, lv):
+    if 'ootate' not in skill:
+        return False
+
+    r = next_rand()
+
+    return r < lv
+
+
+def is_miss(hit, skill, lev):
+    r = next_rand()
+
+    if r >= hit:
+        return True
+
+    return is_ootate(skill, lev)
 
 
 def player_attack():
@@ -171,8 +189,12 @@ def player_attack():
     if dmg <= 0:
         dmg = 1
 
-    renzoku = is_renzoku(CONFIG['player']['skill'], CONFIG['player']['spd'])
+    renzoku = False
     ryuusei = is_ryuusei(CONFIG['player']['skill'], CONFIG['player']['skl'])
+
+    if not ryuusei:
+        renzoku = is_renzoku(CONFIG['player']['skill'], CONFIG['player']['spd'])
+
     gekkou = is_gekkou(CONFIG['player']['skill'], CONFIG['player']['skl'])
     taiyou = is_taiyou(CONFIG['player']['skill'], CONFIG['player']['skl'])
     ikari = is_ikari(CONFIG['player']['skill'], player_hp, CONFIG['player']['hp'])
@@ -205,12 +227,12 @@ def player_attack():
         do_inori()
     elif ryuusei:
         for i in range(5):
-            r = next_rand()
+            miss = is_miss(hit, CONFIG['enemy']['skill'], CONFIG['enemy']['lev'])
 
-            if r >= hit and not renzoku:
+            if miss and not renzoku:
                 continue
-            elif r >= hit and renzoku:
-                pass
+            elif miss and renzoku:
+                continue
             else:
                 if 'hissatsu' in CONFIG['player']['skill']:
                     r = next_rand()
@@ -226,22 +248,27 @@ def player_attack():
             if enemy_hp <=0:
                 break
     elif gekkou:
-        if 'hissatsu' in CONFIG['player']['skill']:
-            r = next_rand()
+        ootate = is_ootate(CONFIG['enemy']['skill'], CONFIG['enemy']['lev'])
 
-            if r < CONFIG['player']['skl2']:
-                dmg2 = atk * 2
-                enemy_hp -= dmg2
+        if ootate:
+            pass
+        else:
+            if 'hissatsu' in CONFIG['player']['skill']:
+                r = next_rand()
+
+                if r < CONFIG['player']['skl2']:
+                    dmg2 = atk * 2
+                    enemy_hp -= dmg2
+                else:
+                    enemy_hp -= atk
             else:
                 enemy_hp -= atk
-        else:
-            enemy_hp -= atk
     else:
-        r = next_rand()
+        miss = is_miss(hit, CONFIG['enemy']['skill'], CONFIG['enemy']['lev'])
 
-        if r >= hit and not renzoku:
+        if miss and not renzoku:
             return False
-        elif r >= hit and renzoku:
+        elif miss and renzoku:
             pass
         else:
             if 'hissatsu' in CONFIG['player']['skill']:
@@ -264,9 +291,9 @@ def player_attack():
         return True
 
     if renzoku:
-        r = next_rand()
+        miss = is_miss(hit, CONFIG['enemy']['skill'], CONFIG['enemy']['lev'])
 
-        if r >= hit:
+        if miss:
             return False
         else:
             if 'hissatsu' in CONFIG['player']['skill']:
@@ -305,23 +332,29 @@ def enemy_attack():
     elif 'gekkou' in CONFIG['player']['skill']:
         _ = next_rand()
 
-    renzoku = is_yuusha(CONFIG['enemy']['skill'])
+    renzoku = is_renzoku(CONFIG['enemy']['skill'], CONFIG['enemy']['spd'])
 
-    r = next_rand()
+    if not renzoku:
+        renzoku = is_yuusha(CONFIG['enemy']['skill'])
 
-    if r >= hit and not renzoku:
+    miss = is_miss(hit, CONFIG['player']['skill'], CONFIG['player']['lev'])
+
+    if miss and not renzoku:
         return False
-    elif r >= hit and renzoku:
+    elif miss and renzoku:
         pass
     else:
         player_hp -= dmg
         do_inori()
         hit = enemy_hit
 
-    if renzoku:
-        r = next_rand()
+    if player_hp <= 0:
+        return True
 
-        if r >= hit:
+    if renzoku:
+        miss = is_miss(hit, CONFIG['player']['skill'], CONFIG['player']['lev'])
+
+        if miss:
             return False
 
         player_hp -= dmg
