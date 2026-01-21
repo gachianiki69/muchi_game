@@ -2,32 +2,32 @@ import json
 
 
 CONFIG = {
-    'start_index': 36080,
+    'start_index': 31210,
     'first_attack': 'player',
     'player': {
-        'hp': 41,
-        'hit': 78,
-        'def': 17,
-        'atk': 23,
-        'lev': 16,
-        'spd': 13,
-        'skl': 18,
-        'skl2': 18,
-        'skill': ['tsuigeki', '', 'tokkou'],
+        'hp': 39,
+        'hit': 86,
+        'def': 10,
+        'atk': 24,
+        'lev': 4,
+        'spd': 0,
+        'skl': 17,
+        'skl2': 17,
+        'skill': ['tsuigeki', 'ryuusei', 'gekkou'],
         'grow': {
-            'mhp': 100,
-            'str': 40,
-            'mgc': 5,
-            'skl': 50,
-            'spd': 30,
-            'luk': 40,
-            'def': 30,
-            'mdf': 10,
+            'mhp': 155,
+            'str': 45,
+            'mgc': 7,
+            'skl': 125,
+            'spd': 45,
+            'luk': 30,
+            'def': 40,
+            'mdf': 7,
         },
     },
     'enemy': {
         'hp': 59,
-        'hit': 29,
+        'hit': 27,
         'def': 17,
         'atk': 35,
         'lev': 19,
@@ -291,10 +291,7 @@ def player_attack():
         elif miss and renzoku:
             pass
         else:
-            if is_tokkou(CONFIG['player']['skill']):
-                dmg2 = atk * 2 - def_
-                enemy_hp -= dmg2
-            elif 'hissatsu' in CONFIG['player']['skill']:
+            if 'hissatsu' in CONFIG['player']['skill']:
                 r = next_rand()
 
                 if r < CONFIG['player']['skl2']:
@@ -319,10 +316,7 @@ def player_attack():
         if miss:
             return False
         else:
-            if is_tokkou(CONFIG['player']['skill']):
-                dmg2 = atk * 2 - def_
-                enemy_hp -= dmg2
-            elif 'hissatsu' in CONFIG['player']['skill']:
+            if 'hissatsu' in CONFIG['player']['skill']:
                 r = next_rand()
 
                 if r < CONFIG['player']['skl2']:

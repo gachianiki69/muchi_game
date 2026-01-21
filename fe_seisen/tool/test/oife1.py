@@ -2,18 +2,18 @@ import json
 
 
 CONFIG = {
-    'start_index': 36080,
+    'start_index': 30776,
     'first_attack': 'player',
     'player': {
-        'hp': 41,
-        'hit': 78,
+        'hp': 40,
+        'hit': 100,
         'def': 17,
-        'atk': 23,
-        'lev': 16,
-        'spd': 13,
-        'skl': 18,
-        'skl2': 18,
-        'skill': ['tsuigeki', '', 'tokkou'],
+        'atk': 28,
+        'lev': 15,
+        'spd': 26,
+        'skl': 17,
+        'skl2': 17,
+        'skill': ['tsuigeki', 'hissatsu', ''],
         'grow': {
             'mhp': 100,
             'str': 40,
@@ -26,15 +26,15 @@ CONFIG = {
         },
     },
     'enemy': {
-        'hp': 59,
-        'hit': 29,
-        'def': 17,
-        'atk': 35,
-        'lev': 19,
+        'hp': 37,
+        'hit': 60,
+        'def': 8,
+        'atk': 25,
+        'lev': 7,
         #'spd': 19,
         'spd': 22,
         'skl': 20,
-        'skill': ['ootate', ''],
+        'skill': ['', ''],
     }
 }
 
@@ -208,11 +208,9 @@ def player_attack():
     ryuusei = is_ryuusei(CONFIG['player']['skill'], CONFIG['player']['skl'])
 
     if not ryuusei:
-        gekkou = is_gekkou(CONFIG['player']['skill'], CONFIG['player']['skl'])
-
-    if not ryuusei:
         renzoku = is_renzoku(CONFIG['player']['skill'], CONFIG['player']['spd'])
 
+    gekkou = is_gekkou(CONFIG['player']['skill'], CONFIG['player']['skl'])
     taiyou = is_taiyou(CONFIG['player']['skill'], CONFIG['player']['skl'])
     ikari = is_ikari(CONFIG['player']['skill'], player_hp, CONFIG['player']['hp'])
 
@@ -291,10 +289,7 @@ def player_attack():
         elif miss and renzoku:
             pass
         else:
-            if is_tokkou(CONFIG['player']['skill']):
-                dmg2 = atk * 2 - def_
-                enemy_hp -= dmg2
-            elif 'hissatsu' in CONFIG['player']['skill']:
+            if 'hissatsu' in CONFIG['player']['skill']:
                 r = next_rand()
 
                 if r < CONFIG['player']['skl2']:
@@ -319,10 +314,7 @@ def player_attack():
         if miss:
             return False
         else:
-            if is_tokkou(CONFIG['player']['skill']):
-                dmg2 = atk * 2 - def_
-                enemy_hp -= dmg2
-            elif 'hissatsu' in CONFIG['player']['skill']:
+            if 'hissatsu' in CONFIG['player']['skill']:
                 r = next_rand()
 
                 if r < CONFIG['player']['skl2']:
@@ -351,17 +343,12 @@ def enemy_attack():
     if dmg <= 0:
         dmg = 1
 
-    ryuusei = False
-    gekkou = False
-    taiyou = False
-
-    ryuusei = is_ryuusei(CONFIG['player']['skill'], CONFIG['player']['skl'])
-
-    if not ryuusei:
-        gekkou = is_gekkou(CONFIG['player']['skill'], CONFIG['player']['skl'])
-
-    if not ryuusei and not gekkou:
-        taiyou = is_taiyou(CONFIG['player']['skill'], CONFIG['player']['skl'])
+    if 'taiyou' in CONFIG['player']['skill']:
+        _ = next_rand()
+    elif 'ryuusei' in CONFIG['player']['skill']:
+        _ = next_rand()
+    elif 'gekkou' in CONFIG['player']['skill']:
+        _ = next_rand()
 
     renzoku = is_renzoku(CONFIG['enemy']['skill'], CONFIG['enemy']['spd'])
     resire = is_resire(CONFIG['enemy']['skill'])

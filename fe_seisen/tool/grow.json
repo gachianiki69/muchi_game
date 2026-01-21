@@ -1,13 +1,13 @@
 {
-    "start_index": 20668,
+    "start_index": 34449,
     "grow": {
-        "mhp": 70,
-        "str": 30,
-        "mgc": 5,
-        "skl": 60,
-        "spd": 30,
-        "luk": 20,
+        "mhp": 85,
+        "str": 15,
+        "mgc": 50,
+        "skl": 20,
+        "spd": 25,
+        "luk": 55,
         "def": 20,
-        "mdf": 5
+        "mdf": 65
     }
 }
