@@ -1,8 +1,8 @@
 CONFIG = {
-    'elite': True,
-    'level': 6,
-    'total_exp': 600,
-    'enemy': [5, 8, 11, 14, 17, 20, 23]
+    'elite': False,
+    'level': 4,
+    'total_exp': 445,
+    'enemy': [19]
 }
 
 level = CONFIG['level']

@@ -1,0 +1,13 @@
+{
+    "start_index": 0,
+    "grow": {
+        "mhp": 50,
+        "str": 40,
+        "mgc": 10,
+        "skl": 40,
+        "spd": 40,
+        "luk": 40,
+        "def": 40,
+        "mdf": 10
+    }
+}

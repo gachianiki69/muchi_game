@@ -1,0 +1,2000 @@
+0: [4, 'MHP']
+1: LOSE
+2: LOSE
+3: [7, 'MHP', 'SPD']
+4: [12, 'MHP']
+5: [15, 'MHP', 'STR']
+6: [12, 'MHP']
+7: [17, 'MHP', 'SKL']
+8: [12, 'MHP']
+9: [17, 'MHP', 'SKL']
+10: [20, 'MHP', 'SPD']
+11: [17, 'MHP', 'SKL']
+12: [22, 'MHP', 'DEF']
+13: [17, 'MHP', 'SKL']
+14: [22, 'MHP', 'DEF']
+15: [21, 'MHP', 'SKL']
+16: [22, 'MHP', 'DEF']
+17: [25, 'MHP', 'SKL']
+18: [22, 'MHP', 'DEF']
+19: [25, 'MHP', 'SKL']
+20: [28, 'MHP', 'STR', 'DEF']
+21: [29, 'MHP', 'LUK']
+22: LOSE
+23: [29, 'MHP', 'LUK']
+24: LOSE
+25: [31, 'MHP', 'SKL', 'LUK', 'DEF']
+26: [30, 'MHP', 'SPD', 'DEF']
+27: [31, 'MHP', 'SKL', 'LUK', 'DEF']
+28: [32, 'MHP', 'SPD', 'LUK']
+29: [33, 'MHP', 'STR', 'SKL', 'DEF']
+30: LOSE
+31: [35, 'MHP', 'STR']
+32: LOSE
+33: [37, 'MHP']
+34: LOSE
+35: LOSE
+36: [40, 'MHP', 'STR']
+37: LOSE
+38: [42, 'MHP', 'LUK', 'DEF']
+39: LOSE
+40: [48, 'MHP', 'STR', 'SPD', 'LUK']
+41: LOSE
+42: [50, 'MHP', 'SKL', 'LUK']
+43: LOSE
+44: [50, 'MHP', 'SKL', 'LUK']
+45: LOSE
+46: [50, 'MHP', 'SKL', 'LUK']
+47: LOSE
+48: LOSE
+49: LOSE
+50: [56, 'MHP', 'STR', 'SKL', 'LUK']
+51: LOSE
+52: [56, 'MHP', 'STR', 'SKL', 'LUK']
+53: LOSE
+54: [58, 'MHP2', 'STR', 'SKL']
+55: LOSE
+56: [60, 'MHP', 'STR', 'LUK', 'DEF']
+57: LOSE
+58: [62, 'MHP', 'SKL', 'SPD', 'LUK', 'DEF']
+59: LOSE
+60: [66, 'MHP', 'STR', 'SPD', 'LUK']
+61: LOSE
+62: [68, 'MHP', 'SKL']
+63: LOSE
+64: [68, 'MHP', 'SKL']
+65: LOSE
+66: LOSE
+67: [71, 'MHP', 'LUK']
+68: LOSE
+69: [77, 'MHP', 'DEF']
+70: [76, 'MHP', 'SKL', 'MDF']
+71: LOSE
+72: [80, 'MHP', 'SKL']
+73: [83, 'MHP2', 'LUK']
+74: [80, 'MHP', 'SKL']
+75: [83, 'MHP2', 'LUK']
+76: [82, 'MHP', 'STR', 'DEF']
+77: LOSE
+78: [82, 'MHP', 'STR', 'DEF']
+79: LOSE
+80: [84, 'MHP', 'SPD']
+81: [89, 'MHP', 'SKL', 'SPD', 'LUK']
+82: [86, 'MHP', 'LUK', 'DEF']
+83: LOSE
+84: [92, 'MHP', 'STR', 'LUK', 'DEF']
+85: [93, 'MHP', 'STR', 'LUK', 'DEF']
+86: LOSE
+87: [93, 'MHP', 'STR', 'LUK', 'DEF']
+88: LOSE
+89: LOSE
+90: [94, 'MHP', 'SKL', 'SPD', 'LUK', 'DEF']
+91: LOSE
+92: LOSE
+93: LOSE
+94: LOSE
+95: LOSE
+96: [100, 'MHP', 'SKL', 'SPD', 'LUK']
+97: LOSE
+98: LOSE
+99: [103, 'MHP2', 'STR', 'SKL', 'SPD', 'LUK', 'DEF']
+100: LOSE
+101: [105, 'MHP', 'STR', 'SKL']
+102: LOSE
+103: LOSE
+104: [108, 'MHP', 'STR', 'SPD', 'LUK']
+105: LOSE
+106: [110, 'MHP', 'SKL']
+107: LOSE
+108: LOSE
+109: [113, 'MHP', 'STR', 'DEF']
+110: [116, 'MHP', 'SKL']
+111: [115, 'MHP', 'SKL', 'SPD']
+112: [116, 'MHP', 'SKL']
+113: [119, 'MHP2', 'LUK', 'DEF']
+114: [120, 'MHP', 'SPD', 'LUK']
+115: [125, 'MHP', 'SKL', 'LUK', 'DEF']
+116: [126, 'MHP', 'SKL', 'SPD', 'LUK']
+117: [125, 'MHP', 'SKL', 'LUK', 'DEF']
+118: [126, 'MHP', 'SKL', 'SPD', 'LUK']
+119: LOSE
+120: [130, 'MHP2', 'STR', 'SKL', 'LUK', 'DEF']
+121: [129, 'MHP', 'STR', 'DEF']
+122: [130, 'MHP2', 'STR', 'SKL', 'LUK', 'DEF']
+123: [129, 'MHP', 'STR', 'DEF']
+124: [130, 'MHP2', 'STR', 'SKL', 'LUK', 'DEF']
+125: LOSE
+126: [132, 'MHP', 'STR', 'SKL', 'LUK']
+127: [131, 'MHP', 'SPD', 'LUK', 'DEF']
+128: [132, 'MHP', 'STR', 'SKL', 'LUK']
+129: LOSE
+130: [134, 'MHP', 'STR', 'SKL']
+131: LOSE
+132: [136, 'MHP', 'STR', 'SKL']
+133: [137, 'MHP', 'DEF']
+134: [138, 'MHP', 'STR', 'LUK', 'DEF']
+135: LOSE
+136: [140, 'MHP', 'SKL', 'SPD', 'DEF']
+137: [143, 'MHP2', 'STR', 'SKL']
+138: [144, 'MHP', 'SKL']
+139: [145, 'MHP', 'STR', 'DEF']
+140: LOSE
+141: [145, 'MHP', 'STR', 'DEF']
+142: LOSE
+143: [147, 'MHP', 'SPD']
+144: LOSE
+145: [155, 'MHP2', 'STR', 'DEF']
+146: [152, 'MHP', 'SKL']
+147: LOSE
+148: [156, 'MHP', 'LUK']
+149: LOSE
+150: [156, 'MHP', 'LUK']
+151: LOSE
+152: LOSE
+153: [157, 'MHP', 'SPD']
+154: LOSE
+155: [159, 'MHP']
+156: LOSE
+157: [165, 'MHP', 'STR', 'LUK', 'DEF']
+158: [168, 'MHP', 'SKL']
+159: [167, 'MHP', 'SKL', 'SPD']
+160: [168, 'MHP', 'SKL']
+161: [167, 'MHP', 'SKL', 'SPD']
+162: LOSE
+163: [167, 'MHP', 'SKL', 'SPD']
+164: LOSE
+165: [171, 'MHP', 'SKL', 'LUK', 'DEF']
+166: LOSE
+167: LOSE
+168: [174, 'MHP', 'MGC', 'SKL', 'LUK']
+169: [175, 'MHP', 'STR', 'SPD', 'DEF']
+170: [174, 'MHP', 'MGC', 'SKL', 'LUK']
+171: [177, 'MHP', 'SPD', 'LUK']
+172: [178, 'MHP', 'STR', 'SKL', 'SPD']
+173: [177, 'MHP', 'SPD', 'LUK']
+174: [180, 'MHP', 'STR']
+175: LOSE
+176: [180, 'MHP', 'STR']
+177: LOSE
+178: [182, 'MHP']
+179: LOSE
+180: [184, 'MHP']
+181: [185, 'MHP', 'DEF']
+182: [192, 'MHP', 'SKL']
+183: [193, 'MHP', 'STR']
+184: LOSE
+185: [195, 'MHP']
+186: LOSE
+187: [195, 'MHP']
+188: LOSE
+189: [195, 'MHP']
+190: LOSE
+191: [195, 'MHP']
+192: LOSE
+193: [205, 'MHP', 'SKL', 'LUK']
+194: LOSE
+195: [209, 'MHP', 'STR']
+196: [208, 'MHP', 'STR', 'SKL']
+197: [209, 'MHP', 'STR']
+198: [208, 'MHP', 'STR', 'SKL']
+199: [209, 'MHP', 'STR']
+200: [208, 'MHP', 'STR', 'SKL']
+201: [209, 'MHP', 'STR']
+202: [208, 'MHP', 'STR', 'SKL']
+203: [209, 'MHP', 'STR']
+204: [208, 'MHP', 'STR', 'SKL']
+205: LOSE
+206: [210, 'MHP', 'STR']
+207: LOSE
+208: LOSE
+209: [219, 'MHP2', 'STR', 'DEF']
+210: [220, 'MHP2', 'STR', 'SKL', 'LUK']
+211: [221, 'MHP', 'DEF']
+212: [222, 'MHP', 'STR', 'SKL', 'LUK', 'MDF']
+213: [221, 'MHP', 'DEF']
+214: [222, 'MHP', 'STR', 'SKL', 'LUK', 'MDF']
+215: [221, 'MHP', 'DEF']
+216: [222, 'MHP', 'STR', 'SKL', 'LUK', 'MDF']
+217: [221, 'MHP', 'DEF']
+218: [222, 'MHP', 'STR', 'SKL', 'LUK', 'MDF']
+219: LOSE
+220: [224, 'MHP', 'STR', 'SKL', 'LUK']
+221: LOSE
+222: [226, 'MHP', 'STR', 'SKL', 'DEF']
+223: LOSE
+224: [228, 'MHP', 'STR', 'SPD', 'LUK']
+225: LOSE
+226: [230, 'MHP', 'MGC', 'SKL', 'DEF']
+227: LOSE
+228: [234, 'MHP', 'SKL']
+229: LOSE
+230: [236, 'MHP', 'STR', 'LUK']
+231: [237, 'MHP', 'SPD']
+232: [236, 'MHP', 'STR', 'LUK']
+233: LOSE
+234: [238, 'MHP', 'SKL']
+235: [239, 'MHP', 'SKL']
+236: [242, 'MHP', 'DEF']
+237: LOSE
+238: LOSE
+239: [249, 'MHP', 'STR', 'SKL', 'DEF']
+240: LOSE
+241: [249, 'MHP', 'STR', 'SKL', 'DEF']
+242: LOSE
+243: [251, 'MHP', 'STR', 'SPD']
+244: LOSE
+245: [251, 'MHP', 'STR', 'SPD']
+246: LOSE
+247: [251, 'MHP', 'STR', 'SPD']
+248: LOSE
+249: [253, 'MHP']
+250: [254, 'MHP', 'STR', 'DEF']
+251: [261, 'MHP', 'SKL', 'MDF']
+252: [256, 'MHP', 'SPD']
+253: [265, 'MHP', 'SKL', 'LUK', 'DEF']
+254: [260, 'MHP', 'STR', 'SKL', 'LUK']
+255: [265, 'MHP', 'SKL', 'LUK', 'DEF']
+256: [262, 'MHP', 'STR', 'SKL', 'DEF']
+257: [265, 'MHP', 'SKL', 'LUK', 'DEF']
+258: [262, 'MHP', 'STR', 'SKL', 'DEF']
+259: [265, 'MHP', 'SKL', 'LUK', 'DEF']
+260: [264, 'MHP', 'STR', 'SPD', 'LUK', 'DEF', 'MDF']
+261: [269, 'MHP', 'STR', 'MGC', 'SKL', 'LUK']
+262: [266, 'MHP', 'MGC', 'SKL', 'SPD', 'LUK']
+263: [269, 'MHP', 'STR', 'MGC', 'SKL', 'LUK']
+264: LOSE
+265: LOSE
+266: LOSE
+267: [271, 'MHP2', 'STR', 'SKL']
+268: LOSE
+269: LOSE
+270: LOSE
+271: [275, 'MHP', 'SKL']
+272: LOSE
+273: [279, 'MHP', 'STR', 'SKL', 'DEF']
+274: LOSE
+275: [281, 'MHP', 'STR', 'SPD']
+276: [288, 'MHP', 'STR', 'SKL', 'LUK']
+277: [281, 'MHP', 'STR', 'SPD']
+278: [288, 'MHP', 'STR', 'SKL', 'LUK']
+279: [283, 'MHP']
+280: [288, 'MHP', 'STR', 'SKL', 'LUK']
+281: [291, 'MHP', 'STR']
+282: [288, 'MHP', 'STR', 'SKL', 'LUK']
+283: LOSE
+284: [288, 'MHP', 'STR', 'SKL', 'LUK']
+285: LOSE
+286: [290, 'MHP', 'STR', 'SKL']
+287: [293, 'MHP', 'DEF']
+288: [292, 'MHP', 'STR']
+289: [293, 'MHP', 'DEF']
+290: [294, 'MHP', 'LUK']
+291: LOSE
+292: [300, 'MHP', 'LUK', 'DEF']
+293: LOSE
+294: [304, 'MHP', 'STR', 'DEF']
+295: [305, 'MHP', 'STR', 'LUK', 'DEF']
+296: [304, 'MHP', 'STR', 'DEF']
+297: [305, 'MHP', 'STR', 'LUK', 'DEF']
+298: [304, 'MHP', 'STR', 'DEF']
+299: [305, 'MHP', 'STR', 'LUK', 'DEF']
+300: [306, 'MHP', 'SPD', 'LUK']
+301: [305, 'MHP', 'STR', 'LUK', 'DEF']
+302: [306, 'MHP', 'SPD', 'LUK']
+303: [307, 'MHP', 'SKL']
+304: [308, 'MHP', 'SKL']
+305: [311, 'MHP', 'LUK']
+306: LOSE
+307: [317, 'MHP', 'SPD', 'LUK']
+308: [314, 'MHP']
+309: [317, 'MHP', 'SPD', 'LUK']
+310: [314, 'MHP']
+311: LOSE
+312: [320, 'MHP', 'STR']
+313: [323, 'MHP', 'LUK']
+314: [322, 'MHP2', 'SKL', 'DEF']
+315: [323, 'MHP', 'LUK']
+316: [322, 'MHP2', 'SKL', 'DEF']
+317: [329, 'MHP', 'STR', 'SKL', 'LUK', 'DEF', 'MDF']
+318: [322, 'MHP2', 'SKL', 'DEF']
+319: [329, 'MHP', 'STR', 'SKL', 'LUK', 'DEF', 'MDF']
+320: [326, 'MHP', 'SPD', 'LUK', 'DEF']
+321: [329, 'MHP', 'STR', 'SKL', 'LUK', 'DEF', 'MDF']
+322: LOSE
+323: [331, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+324: LOSE
+325: [331, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+326: LOSE
+327: [331, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+328: LOSE
+329: [333, 'MHP', 'STR', 'SKL', 'DEF', 'MDF']
+330: LOSE
+331: [335, 'MHP2', 'STR', 'SPD', 'LUK', 'DEF']
+332: LOSE
+333: [337, 'MHP', 'SKL', 'SPD', 'DEF']
+334: LOSE
+335: LOSE
+336: LOSE
+337: LOSE
+338: [342, 'MHP', 'STR', 'SKL', 'SPD']
+339: LOSE
+340: [344, 'MHP', 'STR', 'LUK', 'DEF']
+341: LOSE
+342: [346, 'MHP', 'SKL', 'MDF']
+343: LOSE
+344: [350, 'MHP', 'SKL', 'SPD', 'LUK', 'DEF']
+345: [349, 'MHP', 'STR', 'SPD', 'LUK', 'DEF']
+346: LOSE
+347: [351, 'MHP', 'MGC', 'SKL', 'SPD', 'LUK']
+348: [354, 'MHP', 'STR', 'SPD', 'LUK', 'DEF']
+349: LOSE
+350: LOSE
+351: LOSE
+352: [356, 'MHP', 'SKL', 'SPD']
+353: LOSE
+354: LOSE
+355: [359, 'MHP', 'STR', 'DEF']
+356: LOSE
+357: [361, 'MHP', 'SPD', 'DEF']
+358: LOSE
+359: [363, 'MHP', 'MGC']
+360: [364, 'MHP', 'STR', 'SKL']
+361: LOSE
+362: [366, 'MHP', 'STR', 'DEF']
+363: LOSE
+364: [368, 'MHP', 'SPD', 'DEF', 'MDF']
+365: LOSE
+366: LOSE
+367: [373, 'MHP', 'STR', 'MGC', 'SKL', 'SPD']
+368: LOSE
+369: [373, 'MHP', 'STR', 'MGC', 'SKL', 'SPD']
+370: LOSE
+371: [375, 'MHP2', 'STR', 'MGC', 'LUK']
+372: LOSE
+373: [377, 'MHP2', 'SKL']
+374: [378, 'MHP', 'STR']
+375: LOSE
+376: [380, 'MHP']
+377: [389, 'MHP', 'STR', 'SKL']
+378: LOSE
+379: [389, 'MHP', 'STR', 'SKL']
+380: LOSE
+381: [391, 'MHP', 'STR', 'LUK']
+382: LOSE
+383: [391, 'MHP', 'STR', 'LUK']
+384: LOSE
+385: [391, 'MHP', 'STR', 'LUK']
+386: LOSE
+387: [391, 'MHP', 'STR', 'LUK']
+388: LOSE
+389: [393, 'MHP', 'SKL', 'LUK']
+390: LOSE
+391: [397, 'MHP', 'STR', 'SPD', 'DEF', 'MDF']
+392: [396, 'MHP2', 'LUK', 'MDF']
+393: [399, 'MHP', 'SPD', 'LUK']
+394: LOSE
+395: [399, 'MHP', 'SPD', 'LUK']
+396: LOSE
+397: LOSE
+398: [404, 'MHP2', 'STR']
+399: LOSE
+400: [404, 'MHP2', 'STR']
+401: LOSE
+402: [406, 'MHP', 'SKL']
+403: [409, 'MHP', 'STR']
+404: LOSE
+405: [411, 'MHP', 'DEF']
+406: [412, 'MHP', 'SKL', 'LUK']
+407: [411, 'MHP', 'DEF']
+408: [412, 'MHP', 'SKL', 'LUK']
+409: [417, 'MHP', 'LUK', 'DEF']
+410: [416, 'MHP', 'STR', 'SKL', 'DEF']
+411: LOSE
+412: [418, 'MHP', 'STR', 'SPD', 'LUK']
+413: LOSE
+414: [418, 'MHP', 'STR', 'SPD', 'LUK']
+415: LOSE
+416: [420, 'MHP', 'SKL', 'LUK']
+417: LOSE
+418: [424, 'MHP', 'STR', 'SKL', 'DEF']
+419: LOSE
+420: [426, 'MHP', 'STR', 'SPD']
+421: LOSE
+422: [426, 'MHP', 'STR', 'SPD']
+423: LOSE
+424: [428, 'MHP', 'LUK']
+425: LOSE
+426: [434, 'MHP', 'LUK', 'DEF']
+427: LOSE
+428: LOSE
+429: [437, 'MHP', 'SKL']
+430: LOSE
+431: LOSE
+432: [440, 'MHP']
+433: LOSE
+434: LOSE
+435: [441, 'MHP', 'SKL']
+436: LOSE
+437: [445, 'MHP']
+438: LOSE
+439: [445, 'MHP']
+440: LOSE
+441: [453, 'MHP', 'LUK', 'DEF']
+442: LOSE
+443: [453, 'MHP', 'LUK', 'DEF']
+444: LOSE
+445: LOSE
+446: [456, 'MHP', 'SKL', 'SPD', 'LUK']
+447: LOSE
+448: [456, 'MHP', 'SKL', 'SPD', 'LUK']
+449: LOSE
+450: LOSE
+451: [457, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+452: LOSE
+453: [459, 'MHP', 'STR', 'SPD', 'LUK']
+454: [460, 'MHP', 'STR', 'SKL', 'SPD']
+455: [459, 'MHP', 'STR', 'SPD', 'LUK']
+456: LOSE
+457: [461, 'MHP', 'SKL']
+458: LOSE
+459: LOSE
+460: [464, 'MHP', 'LUK']
+461: LOSE
+462: [470, 'MHP', 'SKL', 'DEF']
+463: [467, 'MHP']
+464: [474, 'MHP', 'SKL']
+465: [475, 'MHP', 'STR', 'MDF']
+466: [474, 'MHP', 'SKL']
+467: [477, 'MHP', 'LUK', 'DEF']
+468: [474, 'MHP', 'SKL']
+469: [477, 'MHP', 'LUK', 'DEF']
+470: [478, 'MHP', 'SPD', 'LUK']
+471: [477, 'MHP', 'LUK', 'DEF']
+472: [478, 'MHP', 'SPD', 'LUK']
+473: [477, 'MHP', 'LUK', 'DEF']
+474: [480, 'MHP', 'MGC', 'SKL']
+475: [479, 'MHP', 'SKL', 'SPD']
+476: [480, 'MHP', 'MGC', 'SKL']
+477: [483, 'MHP', 'STR', 'DEF']
+478: [484, 'MHP', 'LUK', 'DEF']
+479: [485, 'MHP', 'SPD', 'LUK']
+480: [488, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+481: [485, 'MHP', 'SPD', 'LUK']
+482: [488, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+483: LOSE
+484: [490, 'MHP', 'STR']
+485: [493, 'MHP', 'STR', 'LUK', 'DEF']
+486: [490, 'MHP', 'STR']
+487: [493, 'MHP', 'STR', 'LUK', 'DEF']
+488: [492, 'MHP', 'DEF']
+489: [493, 'MHP', 'STR', 'LUK', 'DEF']
+490: LOSE
+491: [495, 'MHP', 'SKL', 'LUK', 'DEF']
+492: LOSE
+493: [499, 'MHP', 'STR', 'SKL', 'SPD']
+494: LOSE
+495: [501, 'MHP', 'STR', 'MGC', 'DEF']
+496: [500, 'MHP', 'STR', 'SKL']
+497: [501, 'MHP', 'STR', 'MGC', 'DEF']
+498: LOSE
+499: LOSE
+500: [504, 'MHP', 'SKL', 'SPD', 'DEF', 'MDF']
+501: LOSE
+502: [508, 'MHP', 'SKL', 'DEF']
+503: LOSE
+504: LOSE
+505: [511, 'MHP2', 'SKL', 'DEF']
+506: LOSE
+507: [511, 'MHP2', 'SKL', 'DEF']
+508: LOSE
+509: [515, 'MHP']
+510: LOSE
+511: LOSE
+512: [524, 'MHP', 'DEF']
+513: [523, 'MHP', 'SKL']
+514: [524, 'MHP', 'DEF']
+515: LOSE
+516: [524, 'MHP', 'DEF']
+517: LOSE
+518: LOSE
+519: [527, 'MHP', 'SKL', 'SPD', 'LUK']
+520: LOSE
+521: [527, 'MHP', 'SKL', 'SPD', 'LUK']
+522: LOSE
+523: [531, 'MHP', 'STR', 'SKL', 'LUK', 'DEF']
+524: LOSE
+525: [531, 'MHP', 'STR', 'SKL', 'LUK', 'DEF']
+526: LOSE
+527: [533, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+528: LOSE
+529: [533, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+530: LOSE
+531: [535, 'MHP', 'STR', 'SKL']
+532: LOSE
+533: [537, 'MHP', 'STR', 'DEF']
+534: LOSE
+535: [539, 'MHP', 'LUK', 'DEF', 'MDF']
+536: LOSE
+537: LOSE
+538: LOSE
+539: LOSE
+540: [546, 'MHP2', 'LUK']
+541: LOSE
+542: [546, 'MHP2', 'LUK']
+543: LOSE
+544: LOSE
+545: [551, 'MHP', 'SKL', 'SPD', 'LUK']
+546: LOSE
+547: [555, 'MHP2', 'STR', 'SPD']
+548: [556, 'MHP', 'SKL']
+549: [555, 'MHP2', 'STR', 'SPD']
+550: [556, 'MHP', 'SKL']
+551: LOSE
+552: LOSE
+553: [557, 'MHP']
+554: LOSE
+555: LOSE
+556: [560, 'MHP', 'DEF']
+557: [567, 'MHP', 'SPD', 'DEF']
+558: [564, 'MHP', 'SKL']
+559: [567, 'MHP', 'SPD', 'DEF']
+560: [568, 'MHP', 'SKL', 'LUK', 'DEF']
+561: LOSE
+562: [568, 'MHP', 'SKL', 'LUK', 'DEF']
+563: LOSE
+564: [572, 'MHP', 'STR', 'SPD', 'DEF']
+565: LOSE
+566: [572, 'MHP', 'STR', 'SPD', 'DEF']
+567: LOSE
+568: [574, 'MHP', 'SPD']
+569: LOSE
+570: [574, 'MHP', 'SPD']
+571: LOSE
+572: LOSE
+573: [577, 'MHP', 'STR', 'SKL']
+574: LOSE
+575: [579, 'MHP', 'STR', 'LUK', 'DEF']
+576: LOSE
+577: [581, 'MHP', 'SKL', 'SPD']
+578: LOSE
+579: [585, 'MHP', 'STR', 'SKL', 'LUK']
+580: [588, 'MHP', 'STR', 'DEF']
+581: [587, 'MHP', 'STR', 'SKL', 'MDF']
+582: [588, 'MHP', 'STR', 'DEF']
+583: [587, 'MHP', 'STR', 'SKL', 'MDF']
+584: [588, 'MHP', 'STR', 'DEF']
+585: [589, 'MHP', 'STR', 'SKL', 'LUK']
+586: [590, 'MHP', 'SKL', 'SPD']
+587: [591, 'MHP', 'STR', 'SKL']
+588: LOSE
+589: [593, 'MHP', 'STR', 'LUK']
+590: LOSE
+591: [595, 'MHP', 'SKL', 'LUK', 'DEF']
+592: LOSE
+593: [599, 'MHP', 'STR', 'LUK']
+594: LOSE
+595: [601, 'MHP', 'SKL', 'DEF']
+596: LOSE
+597: [601, 'MHP', 'SKL', 'DEF']
+598: LOSE
+599: [605, 'MHP', 'STR']
+600: LOSE
+601: [607, 'MHP', 'LUK']
+602: LOSE
+603: [607, 'MHP', 'LUK']
+604: LOSE
+605: [609, 'MHP', 'SKL']
+606: [614, 'MHP', 'SKL']
+607: [613, 'MHP', 'SKL']
+608: [618, 'MHP', 'LUK']
+609: [617, 'MHP', 'LUK', 'DEF']
+610: [618, 'MHP', 'LUK']
+611: [617, 'MHP', 'LUK', 'DEF']
+612: [618, 'MHP', 'LUK']
+613: [619, 'MHP', 'SKL', 'SPD', 'DEF']
+614: [624, 'MHP', 'STR', 'LUK', 'DEF']
+615: [619, 'MHP', 'SKL', 'SPD', 'DEF']
+616: [624, 'MHP', 'STR', 'LUK', 'DEF']
+617: [623, 'MHP', 'STR', 'SKL', 'DEF']
+618: [626, 'MHP', 'SKL', 'SPD', 'DEF']
+619: [625, 'MHP', 'STR', 'LUK']
+620: [626, 'MHP', 'SKL', 'SPD', 'DEF']
+621: [625, 'MHP', 'STR', 'LUK']
+622: [626, 'MHP', 'SKL', 'SPD', 'DEF']
+623: LOSE
+624: [630, 'MHP', 'SKL', 'DEF']
+625: LOSE
+626: LOSE
+627: [633, 'MHP2', 'STR', 'SKL']
+628: LOSE
+629: [633, 'MHP2', 'STR', 'SKL']
+630: LOSE
+631: [635, 'MHP', 'STR', 'DEF']
+632: LOSE
+633: [637, 'MHP', 'SPD', 'DEF']
+634: LOSE
+635: LOSE
+636: [640, 'MHP', 'STR', 'SKL']
+637: LOSE
+638: [642, 'MHP', 'STR', 'LUK']
+639: LOSE
+640: [644, 'MHP', 'SKL']
+641: LOSE
+642: [646, 'MHP', 'STR', 'LUK']
+643: [647, 'MHP', 'SKL', 'SPD']
+644: [648, 'MHP', 'SKL', 'DEF']
+645: [651, 'MHP2', 'SKL', 'SPD', 'LUK']
+646: [652, 'MHP', 'SKL', 'SPD', 'DEF']
+647: LOSE
+648: [656, 'MHP2', 'SKL', 'LUK', 'DEF', 'MDF']
+649: [655, 'MHP', 'STR', 'SKL', 'DEF']
+650: [656, 'MHP2', 'SKL', 'LUK', 'DEF', 'MDF']
+651: LOSE
+652: LOSE
+653: [657, 'MHP', 'STR', 'SPD', 'LUK', 'DEF']
+654: LOSE
+655: [659, 'MHP', 'SKL', 'SPD', 'LUK']
+656: LOSE
+657: [663, 'MHP2', 'STR', 'SPD', 'DEF']
+658: [662, 'MHP', 'STR', 'LUK']
+659: LOSE
+660: [664, 'MHP', 'SKL', 'LUK', 'DEF']
+661: LOSE
+662: LOSE
+663: LOSE
+664: [670, 'MHP', 'STR', 'DEF']
+665: LOSE
+666: [670, 'MHP', 'STR', 'DEF']
+667: LOSE
+668: [672, 'MHP', 'SPD']
+669: LOSE
+670: LOSE
+671: [675, 'MHP', 'STR', 'SPD', 'LUK']
+672: LOSE
+673: [677, 'MHP', 'SKL']
+674: LOSE
+675: [681, 'MHP', 'SPD', 'DEF']
+676: LOSE
+677: LOSE
+678: [684, 'MHP', 'STR', 'SKL', 'DEF']
+679: LOSE
+680: [686, 'MHP', 'STR', 'SPD', 'LUK']
+681: LOSE
+682: [686, 'MHP', 'STR', 'SPD', 'LUK']
+683: LOSE
+684: [688, 'MHP', 'SKL', 'DEF']
+685: LOSE
+686: [692, 'MHP', 'LUK']
+687: LOSE
+688: LOSE
+689: [693, 'MHP', 'STR', 'SPD']
+690: LOSE
+691: [695, 'MHP']
+692: LOSE
+693: [701, 'MHP', 'SKL', 'DEF']
+694: LOSE
+695: [705, 'MHP', 'SPD']
+696: [708, 'MHP', 'STR', 'DEF']
+697: [705, 'MHP', 'SPD']
+698: [710, 'MHP', 'SPD', 'LUK']
+699: [705, 'MHP', 'SPD']
+700: [710, 'MHP', 'SPD', 'LUK']
+701: [707, 'MHP']
+702: [710, 'MHP', 'SPD', 'LUK']
+703: [707, 'MHP']
+704: [710, 'MHP', 'SPD', 'LUK']
+705: LOSE
+706: [710, 'MHP', 'SPD', 'LUK']
+707: LOSE
+708: [714, 'MHP', 'STR']
+709: [715, 'MHP']
+710: [716, 'MHP', 'SKL', 'DEF']
+711: [723, 'MHP2']
+712: [716, 'MHP', 'SKL', 'DEF']
+713: [723, 'MHP2']
+714: [718, 'MHP', 'STR', 'SPD', 'LUK']
+715: LOSE
+716: [720, 'MHP', 'SKL', 'LUK']
+717: LOSE
+718: [722, 'MHP', 'STR', 'SKL']
+719: LOSE
+720: [724, 'MHP', 'STR', 'DEF']
+721: LOSE
+722: [726, 'MHP', 'SPD']
+723: LOSE
+724: [730, 'MHP', 'SKL', 'LUK']
+725: [729, 'MHP', 'STR', 'DEF']
+726: [734, 'MHP', 'STR', 'SKL', 'SPD']
+727: [731, 'MHP', 'DEF']
+728: [734, 'MHP', 'STR', 'SKL', 'SPD']
+729: LOSE
+730: [736, 'MHP', 'STR', 'SKL', 'LUK']
+731: LOSE
+732: [736, 'MHP', 'STR', 'SKL', 'LUK']
+733: LOSE
+734: [738, 'MHP', 'STR', 'SKL']
+735: LOSE
+736: [740, 'MHP', 'STR', 'DEF']
+737: [741, 'MHP', 'STR', 'LUK', 'DEF']
+738: [742, 'MHP', 'SPD', 'LUK']
+739: [743, 'MHP', 'SKL', 'DEF']
+740: [744, 'MHP', 'SKL', 'LUK', 'DEF']
+741: [747, 'MHP', 'SKL', 'DEF']
+742: [748, 'MHP', 'STR', 'LUK']
+743: LOSE
+744: [750, 'MHP', 'SKL', 'DEF']
+745: LOSE
+746: [750, 'MHP', 'SKL', 'DEF']
+747: LOSE
+748: [754, 'MHP', 'SKL', 'SPD']
+749: LOSE
+750: LOSE
+751: LOSE
+752: [758, 'MHP', 'SKL', 'SPD']
+753: LOSE
+754: LOSE
+755: [759, 'MHP', 'SKL', 'DEF']
+756: LOSE
+757: [763, 'MHP', 'SKL', 'SPD']
+758: LOSE
+759: [767, 'MHP', 'SKL', 'SPD']
+760: [764, 'MHP', 'STR', 'SKL', 'DEF']
+761: [767, 'MHP', 'SKL', 'SPD']
+762: [766, 'MHP', 'STR', 'SPD', 'LUK']
+763: LOSE
+764: [768, 'MHP', 'SKL', 'DEF', 'MDF']
+765: LOSE
+766: [770, 'MHP', 'STR', 'SPD', 'LUK']
+767: LOSE
+768: [772, 'MHP', 'SKL']
+769: [775, 'MHP2', 'SKL', 'SPD']
+770: LOSE
+771: LOSE
+772: [780, 'MHP', 'STR']
+773: [779, 'MHP', 'SKL']
+774: [780, 'MHP', 'STR']
+775: LOSE
+776: [782, 'MHP', 'LUK']
+777: [783, 'MHP', 'SPD', 'DEF']
+778: [782, 'MHP', 'LUK']
+779: [785, 'MHP', 'SPD']
+780: [784, 'MHP', 'SKL', 'LUK']
+781: [785, 'MHP', 'SPD']
+782: [788, 'MHP', 'STR', 'DEF']
+783: LOSE
+784: [790, 'MHP', 'SPD', 'LUK']
+785: LOSE
+786: [790, 'MHP', 'SPD', 'LUK']
+787: LOSE
+788: LOSE
+789: [795, 'MHP', 'SKL', 'DEF']
+790: LOSE
+791: [795, 'MHP', 'SKL', 'DEF']
+792: LOSE
+793: [799, 'MHP', 'LUK']
+794: LOSE
+795: LOSE
+796: LOSE
+797: [805, 'MHP', 'STR', 'DEF']
+798: LOSE
+799: [807, 'MHP2', 'SPD', 'LUK']
+800: [808, 'MHP', 'SKL', 'DEF']
+801: [807, 'MHP2', 'SPD', 'LUK']
+802: [812, 'MHP', 'SKL', 'SPD', 'LUK', 'DEF']
+803: [807, 'MHP2', 'SPD', 'LUK']
+804: [812, 'MHP', 'SKL', 'SPD', 'LUK', 'DEF']
+805: LOSE
+806: [812, 'MHP', 'SKL', 'SPD', 'LUK', 'DEF']
+807: LOSE
+808: LOSE
+809: [815, 'MHP', 'STR', 'SKL']
+810: LOSE
+811: [815, 'MHP', 'STR', 'SKL']
+812: LOSE
+813: [817, 'MHP', 'STR']
+814: LOSE
+815: [819, 'MHP']
+816: LOSE
+817: [827, 'MHP', 'STR']
+818: LOSE
+819: [829, 'MHP', 'LUK', 'MDF']
+820: LOSE
+821: [829, 'MHP', 'LUK', 'MDF']
+822: LOSE
+823: [829, 'MHP', 'LUK', 'MDF']
+824: LOSE
+825: [829, 'MHP', 'LUK', 'MDF']
+826: LOSE
+827: [831, 'MHP', 'SKL', 'LUK']
+828: LOSE
+829: [835, 'MHP', 'STR', 'SKL', 'SPD']
+830: LOSE
+831: [837, 'MHP', 'STR', 'DEF']
+832: LOSE
+833: [837, 'MHP', 'STR', 'DEF']
+834: LOSE
+835: [839, 'MHP', 'SPD', 'DEF']
+836: LOSE
+837: LOSE
+838: [842, 'MHP', 'STR', 'SKL', 'LUK']
+839: LOSE
+840: [844, 'MHP', 'STR', 'SKL', 'LUK']
+841: LOSE
+842: [846, 'MHP', 'STR', 'SKL']
+843: LOSE
+844: [848, 'MHP', 'STR', 'DEF']
+845: LOSE
+846: [850, 'MHP', 'SPD']
+847: LOSE
+848: [858, 'MHP', 'DEF']
+849: [855, 'MHP', 'STR', 'SKL']
+850: LOSE
+851: [855, 'MHP', 'STR', 'SKL']
+852: LOSE
+853: [857, 'MHP', 'STR']
+854: LOSE
+855: [859, 'MHP', 'LUK', 'DEF']
+856: LOSE
+857: [865, 'MHP', 'STR', 'SKL']
+858: LOSE
+859: [867, 'MHP', 'STR', 'LUK', 'DEF']
+860: [868, 'MHP', 'LUK']
+861: [867, 'MHP', 'STR', 'LUK', 'DEF']
+862: [868, 'MHP', 'LUK']
+863: [867, 'MHP', 'STR', 'LUK', 'DEF']
+864: [868, 'MHP', 'LUK']
+865: LOSE
+866: LOSE
+867: [873, 'MHP', 'STR', 'SKL', 'SPD']
+868: LOSE
+869: [875, 'MHP', 'STR']
+870: [876, 'MHP2', 'STR']
+871: [875, 'MHP', 'STR']
+872: [876, 'MHP2', 'STR']
+873: LOSE
+874: [878, 'MHP']
+875: LOSE
+876: LOSE
+877: [887, 'MHP', 'STR', 'SKL', 'LUK']
+878: LOSE
+879: [887, 'MHP', 'STR', 'SKL', 'LUK']
+880: LOSE
+881: [889, 'MHP2', 'STR', 'SKL', 'LUK']
+882: LOSE
+883: [889, 'MHP2', 'STR', 'SKL', 'LUK']
+884: LOSE
+885: [889, 'MHP2', 'STR', 'SKL', 'LUK']
+886: LOSE
+887: LOSE
+888: LOSE
+889: [893, 'MHP', 'STR', 'SKL', 'DEF']
+890: LOSE
+891: [895, 'MHP', 'STR', 'LUK']
+892: LOSE
+893: [897, 'MHP', 'SKL', 'DEF']
+894: LOSE
+895: [901, 'MHP', 'SPD']
+896: LOSE
+897: LOSE
+898: [902, 'MHP', 'STR', 'SKL', 'DEF']
+899: LOSE
+900: [904, 'MHP', 'STR', 'SPD']
+901: LOSE
+902: [906, 'MHP', 'LUK', 'DEF']
+903: LOSE
+904: [910, 'MHP', 'STR', 'MGC', 'SKL']
+905: LOSE
+906: [912, 'MHP2', 'STR', 'LUK']
+907: [913, 'MHP', 'STR', 'SPD', 'DEF']
+908: [912, 'MHP2', 'STR', 'LUK']
+909: LOSE
+910: [914, 'MHP', 'SKL', 'LUK', 'DEF']
+911: LOSE
+912: LOSE
+913: LOSE
+914: [920, 'MHP', 'LUK', 'DEF']
+915: LOSE
+916: [920, 'MHP', 'LUK', 'DEF']
+917: LOSE
+918: LOSE
+919: [923, 'MHP', 'SKL', 'SPD']
+920: LOSE
+921: [927, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+922: LOSE
+923: LOSE
+924: [928, 'MHP', 'STR', 'SKL', 'LUK']
+925: LOSE
+926: [930, 'MHP', 'STR', 'SKL', 'LUK']
+927: [931, 'MHP', 'SPD']
+928: [932, 'MHP', 'STR', 'SKL', 'DEF']
+929: LOSE
+930: [934, 'MHP', 'STR', 'SKL', 'DEF']
+931: LOSE
+932: [936, 'MHP', 'STR', 'SPD']
+933: LOSE
+934: [938, 'MHP', 'MGC', 'LUK']
+935: [941, 'MHP', 'DEF']
+936: LOSE
+937: [941, 'MHP', 'DEF']
+938: LOSE
+939: [947, 'MHP', 'LUK', 'DEF']
+940: [946, 'MHP', 'STR', 'DEF']
+941: LOSE
+942: [946, 'MHP', 'STR', 'DEF']
+943: LOSE
+944: [948, 'MHP', 'SPD', 'LUK', 'DEF']
+945: [953, 'MHP', 'STR', 'LUK', 'DEF']
+946: [954, 'MHP', 'SKL', 'SPD', 'LUK', 'DEF']
+947: LOSE
+948: LOSE
+949: [955, 'MHP', 'SKL', 'LUK']
+950: LOSE
+951: [955, 'MHP', 'SKL', 'LUK']
+952: LOSE
+953: LOSE
+954: LOSE
+955: LOSE
+956: [960, 'MHP', 'SKL']
+957: LOSE
+958: LOSE
+959: [965, 'MHP', 'STR', 'SKL', 'LUK', 'DEF']
+960: [964, 'MHP', 'DEF']
+961: [967, 'MHP', 'STR', 'SKL']
+962: LOSE
+963: [967, 'MHP', 'STR', 'SKL']
+964: LOSE
+965: [969, 'MHP', 'STR', 'SKL', 'LUK', 'DEF']
+966: LOSE
+967: [971, 'MHP', 'STR', 'SKL', 'SPD']
+968: LOSE
+969: [973, 'MHP', 'STR']
+970: [974, 'MHP', 'STR']
+971: [975, 'MHP']
+972: [976, 'MHP', 'DEF']
+973: [977, 'MHP', 'LUK', 'DEF']
+974: LOSE
+975: [983, 'MHP2', 'STR', 'DEF']
+976: LOSE
+977: [985, 'MHP', 'SPD', 'DEF']
+978: LOSE
+979: [985, 'MHP', 'SPD', 'DEF']
+980: LOSE
+981: [985, 'MHP', 'SPD', 'DEF']
+982: LOSE
+983: LOSE
+984: [990, 'MHP', 'STR', 'SKL']
+985: LOSE
+986: [990, 'MHP', 'STR', 'SKL']
+987: LOSE
+988: [992, 'MHP', 'STR', 'LUK']
+989: LOSE
+990: [994, 'MHP', 'SKL']
+991: [995, 'MHP']
+992: [998, 'MHP', 'LUK', 'DEF']
+993: [997, 'MHP', 'DEF']
+994: [1004, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+995: LOSE
+996: [1004, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+997: LOSE
+998: [1006, 'MHP', 'STR', 'SKL', 'LUK', 'MDF']
+999: LOSE
+1000: [1006, 'MHP', 'STR', 'SKL', 'LUK', 'MDF']
+1001: LOSE
+1002: [1006, 'MHP', 'STR', 'SKL', 'LUK', 'MDF']
+1003: LOSE
+1004: [1008, 'MHP', 'STR', 'SKL', 'LUK']
+1005: LOSE
+1006: [1010, 'MHP', 'STR', 'SKL', 'LUK', 'DEF']
+1007: [1011, 'MHP', 'MGC', 'SPD', 'LUK', 'DEF', 'MDF']
+1008: LOSE
+1009: LOSE
+1010: [1014, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+1011: LOSE
+1012: [1016, 'MHP', 'STR', 'MGC', 'LUK', 'DEF']
+1013: LOSE
+1014: [1018, 'MHP2', 'SKL', 'SPD']
+1015: LOSE
+1016: LOSE
+1017: [1021, 'MHP', 'STR', 'DEF']
+1018: LOSE
+1019: [1023, 'MHP', 'LUK', 'DEF']
+1020: LOSE
+1021: LOSE
+1022: LOSE
+1023: LOSE
+1024: [1030, 'MHP', 'STR', 'SKL', 'DEF', 'MDF']
+1025: LOSE
+1026: [1030, 'MHP', 'STR', 'SKL', 'DEF', 'MDF']
+1027: LOSE
+1028: [1032, 'MHP', 'STR', 'SPD', 'LUK']
+1029: LOSE
+1030: [1034, 'MHP', 'MGC', 'SKL', 'LUK', 'DEF']
+1031: LOSE
+1032: LOSE
+1033: [1037, 'MHP2', 'SKL', 'LUK']
+1034: LOSE
+1035: [1039, 'MHP', 'STR', 'SKL']
+1036: [1040, 'MHP', 'STR']
+1037: LOSE
+1038: [1042, 'MHP', 'LUK']
+1039: [1043, 'MHP']
+1040: LOSE
+1041: [1049, 'MHP', 'SKL', 'LUK']
+1042: [1052, 'MHP2', 'LUK']
+1043: LOSE
+1044: [1052, 'MHP2', 'LUK']
+1045: LOSE
+1046: [1052, 'MHP2', 'LUK']
+1047: LOSE
+1048: LOSE
+1049: [1055, 'MHP', 'LUK']
+1050: LOSE
+1051: [1055, 'MHP', 'LUK']
+1052: LOSE
+1053: [1061, 'MHP', 'SKL']
+1054: [1058, 'MHP', 'DEF']
+1055: [1065, 'MHP', 'SKL', 'LUK', 'DEF']
+1056: [1060, 'MHP', 'SPD']
+1057: [1065, 'MHP', 'SKL', 'LUK', 'DEF']
+1058: LOSE
+1059: [1065, 'MHP', 'SKL', 'LUK', 'DEF']
+1060: LOSE
+1061: [1069, 'MHP', 'STR', 'MGC', 'DEF']
+1062: LOSE
+1063: [1069, 'MHP', 'STR', 'MGC', 'DEF']
+1064: LOSE
+1065: [1071, 'MHP2', 'SPD', 'LUK']
+1066: LOSE
+1067: [1071, 'MHP2', 'SPD', 'LUK']
+1068: LOSE
+1069: LOSE
+1070: [1074, 'MHP', 'STR', 'SKL', 'LUK']
+1071: LOSE
+1072: [1076, 'MHP', 'STR', 'SKL']
+1073: LOSE
+1074: [1078, 'MHP', 'STR', 'SKL']
+1075: LOSE
+1076: [1080, 'MHP', 'STR']
+1077: LOSE
+1078: [1082, 'MHP', 'DEF']
+1079: LOSE
+1080: [1090, 'MHP', 'STR', 'LUK']
+1081: LOSE
+1082: [1092, 'MHP', 'SKL', 'LUK', 'DEF']
+1083: LOSE
+1084: [1092, 'MHP', 'SKL', 'LUK', 'DEF']
+1085: LOSE
+1086: [1092, 'MHP', 'SKL', 'LUK', 'DEF']
+1087: LOSE
+1088: [1092, 'MHP', 'SKL', 'LUK', 'DEF']
+1089: LOSE
+1090: [1096, 'MHP', 'STR', 'LUK']
+1091: LOSE
+1092: [1098, 'MHP2', 'SKL', 'LUK']
+1093: LOSE
+1094: [1098, 'MHP2', 'SKL', 'LUK']
+1095: LOSE
+1096: [1102, 'MHP', 'STR', 'LUK']
+1097: LOSE
+1098: [1104, 'MHP', 'SKL']
+1099: LOSE
+1100: [1104, 'MHP', 'SKL']
+1101: LOSE
+1102: [1106, 'MHP', 'STR', 'DEF']
+1103: LOSE
+1104: [1108, 'MHP', 'SPD', 'LUK']
+1105: [1113, 'MHP']
+1106: [1110, 'MHP', 'SKL']
+1107: LOSE
+1108: [1114, 'MHP']
+1109: [1125, 'MHP', 'STR', 'SKL']
+1110: [1124, 'MHP', 'SKL', 'LUK']
+1111: [1125, 'MHP', 'STR', 'SKL']
+1112: [1124, 'MHP', 'SKL', 'LUK']
+1113: [1127, 'MHP', 'STR', 'DEF']
+1114: LOSE
+1115: [1127, 'MHP', 'STR', 'DEF']
+1116: LOSE
+1117: [1127, 'MHP', 'STR', 'DEF']
+1118: LOSE
+1119: [1127, 'MHP', 'STR', 'DEF']
+1120: LOSE
+1121: [1127, 'MHP', 'STR', 'DEF']
+1122: LOSE
+1123: [1127, 'MHP', 'STR', 'DEF']
+1124: LOSE
+1125: [1129, 'MHP', 'SPD']
+1126: [1130, 'MHP', 'SKL', 'DEF']
+1127: LOSE
+1128: [1134, 'MHP', 'SPD']
+1129: LOSE
+1130: [1138, 'MHP', 'LUK']
+1131: [1139, 'MHP', 'SPD', 'DEF']
+1132: [1138, 'MHP', 'LUK']
+1133: [1139, 'MHP', 'SPD', 'DEF']
+1134: LOSE
+1135: [1139, 'MHP', 'SPD', 'DEF']
+1136: LOSE
+1137: [1145, 'MHP', 'SKL', 'SPD', 'LUK']
+1138: [1146, 'MHP', 'STR', 'SKL', 'SPD']
+1139: LOSE
+1140: [1146, 'MHP', 'STR', 'SKL', 'SPD']
+1141: LOSE
+1142: [1146, 'MHP', 'STR', 'SKL', 'SPD']
+1143: LOSE
+1144: [1148, 'MHP', 'STR', 'MGC', 'SKL']
+1145: LOSE
+1146: [1150, 'MHP2', 'STR']
+1147: LOSE
+1148: [1152, 'MHP']
+1149: [1153, 'MHP']
+1150: LOSE
+1151: [1161, 'MHP', 'STR', 'LUK', 'DEF']
+1152: LOSE
+1153: [1163, 'MHP', 'SKL', 'SPD', 'DEF']
+1154: LOSE
+1155: [1163, 'MHP', 'SKL', 'SPD', 'DEF']
+1156: LOSE
+1157: [1163, 'MHP', 'SKL', 'SPD', 'DEF']
+1158: LOSE
+1159: [1163, 'MHP', 'SKL', 'SPD', 'DEF']
+1160: LOSE
+1161: [1167, 'MHP', 'SKL']
+1162: LOSE
+1163: LOSE
+1164: [1170, 'MHP', 'DEF']
+1165: LOSE
+1166: [1170, 'MHP', 'DEF']
+1167: LOSE
+1168: [1176, 'MHP2', 'SKL', 'SPD']
+1169: [1173, 'MHP', 'SKL']
+1170: LOSE
+1171: [1177, 'MHP', 'SKL']
+1172: [1180, 'MHP', 'STR']
+1173: [1181, 'MHP']
+1174: [1180, 'MHP', 'STR']
+1175: [1181, 'MHP']
+1176: LOSE
+1177: [1189, 'MHP']
+1178: [1182, 'MHP', 'DEF']
+1179: [1189, 'MHP']
+1180: LOSE
+1181: [1195, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+1182: LOSE
+1183: [1195, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+1184: LOSE
+1185: [1195, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+1186: LOSE
+1187: [1195, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+1188: LOSE
+1189: [1197, 'MHP2', 'STR', 'MGC', 'SKL']
+1190: LOSE
+1191: [1197, 'MHP2', 'STR', 'MGC', 'SKL']
+1192: LOSE
+1193: [1197, 'MHP2', 'STR', 'MGC', 'SKL']
+1194: LOSE
+1195: [1199, 'MHP2', 'STR']
+1196: LOSE
+1197: LOSE
+1198: LOSE
+1199: LOSE
+1200: [1210, 'MHP', 'LUK']
+1201: [1213, 'MHP', 'LUK']
+1202: [1210, 'MHP', 'LUK']
+1203: [1213, 'MHP', 'LUK']
+1204: [1210, 'MHP', 'LUK']
+1205: [1213, 'MHP', 'LUK']
+1206: [1216, 'MHP', 'STR']
+1207: [1213, 'MHP', 'LUK']
+1208: [1216, 'MHP', 'STR']
+1209: [1213, 'MHP', 'LUK']
+1210: [1218, 'MHP', 'DEF']
+1211: [1219, 'MHP', 'LUK']
+1212: [1218, 'MHP', 'DEF']
+1213: [1225, 'MHP', 'STR', 'DEF']
+1214: [1218, 'MHP', 'DEF']
+1215: [1225, 'MHP', 'STR', 'DEF']
+1216: LOSE
+1217: [1225, 'MHP', 'STR', 'DEF']
+1218: LOSE
+1219: [1227, 'MHP', 'SPD', 'LUK']
+1220: LOSE
+1221: [1227, 'MHP', 'SPD', 'LUK']
+1222: LOSE
+1223: [1227, 'MHP', 'SPD', 'LUK']
+1224: LOSE
+1225: LOSE
+1226: [1232, 'MHP', 'STR', 'SKL']
+1227: LOSE
+1228: [1232, 'MHP', 'STR', 'SKL']
+1229: LOSE
+1230: [1234, 'MHP', 'STR']
+1231: [1235, 'MHP', 'DEF']
+1232: LOSE
+1233: LOSE
+1234: [1242, 'MHP', 'STR', 'LUK']
+1235: LOSE
+1236: [1244, 'MHP2', 'SKL']
+1237: LOSE
+1238: [1244, 'MHP2', 'SKL']
+1239: LOSE
+1240: [1244, 'MHP2', 'SKL']
+1241: LOSE
+1242: [1248, 'MHP', 'SPD', 'DEF', 'MDF']
+1243: LOSE
+1244: LOSE
+1245: [1255, 'MHP2', 'STR']
+1246: LOSE
+1247: [1255, 'MHP2', 'STR']
+1248: LOSE
+1249: [1255, 'MHP2', 'STR']
+1250: LOSE
+1251: [1255, 'MHP2', 'STR']
+1252: LOSE
+1253: [1257, 'MHP', 'LUK', 'DEF']
+1254: [1258, 'MHP', 'LUK', 'DEF']
+1255: LOSE
+1256: [1264, 'MHP', 'SKL', 'DEF']
+1257: LOSE
+1258: LOSE
+1259: [1265, 'MHP', 'STR', 'LUK']
+1260: LOSE
+1261: [1265, 'MHP', 'STR', 'LUK']
+1262: LOSE
+1263: [1267, 'MHP', 'SKL']
+1264: LOSE
+1265: [1271, 'MHP', 'SKL', 'DEF']
+1266: LOSE
+1267: [1275, 'MHP', 'SKL', 'SPD', 'LUK']
+1268: LOSE
+1269: [1275, 'MHP', 'SKL', 'SPD', 'LUK']
+1270: LOSE
+1271: [1279, 'MHP', 'STR', 'SPD', 'DEF']
+1272: [1278, 'MHP', 'STR', 'LUK']
+1273: [1279, 'MHP', 'STR', 'SPD', 'DEF']
+1274: [1280, 'MHP', 'SKL', 'LUK', 'MDF']
+1275: LOSE
+1276: [1280, 'MHP', 'SKL', 'LUK', 'MDF']
+1277: LOSE
+1278: [1284, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+1279: LOSE
+1280: [1286, 'MHP', 'STR', 'SKL', 'DEF']
+1281: LOSE
+1282: [1286, 'MHP', 'STR', 'SKL', 'DEF']
+1283: LOSE
+1284: [1288, 'MHP2', 'STR', 'SPD', 'DEF']
+1285: LOSE
+1286: [1290, 'MHP', 'SPD', 'LUK', 'DEF']
+1287: LOSE
+1288: LOSE
+1289: [1295, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+1290: LOSE
+1291: [1295, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+1292: LOSE
+1293: [1297, 'MHP', 'STR', 'SKL']
+1294: LOSE
+1295: [1299, 'MHP', 'STR']
+1296: LOSE
+1297: [1301, 'MHP', 'SKL']
+1298: LOSE
+1299: [1305, 'MHP', 'SKL', 'SPD', 'LUK', 'DEF']
+1300: LOSE
+1301: [1309, 'MHP2', 'STR', 'SKL', 'SPD']
+1302: [1310, 'MHP', 'STR', 'SKL']
+1303: [1309, 'MHP2', 'STR', 'SKL', 'SPD']
+1304: LOSE
+1305: [1311, 'MHP', 'STR', 'MDF']
+1306: LOSE
+1307: [1311, 'MHP', 'STR', 'MDF']
+1308: LOSE
+1309: LOSE
+1310: LOSE
+1311: LOSE
+1312: LOSE
+1313: LOSE
+1314: [1322, 'MHP', 'SKL', 'LUK', 'DEF']
+1315: [1323, 'MHP', 'LUK', 'DEF']
+1316: [1322, 'MHP', 'SKL', 'LUK', 'DEF']
+1317: [1323, 'MHP', 'LUK', 'DEF']
+1318: [1322, 'MHP', 'SKL', 'LUK', 'DEF']
+1319: LOSE
+1320: [1324, 'MHP', 'STR', 'SKL', 'SPD', 'LUK', 'DEF']
+1321: [1329, 'MHP', 'STR']
+1322: [1326, 'MHP', 'STR', 'SKL', 'SPD']
+1323: LOSE
+1324: [1328, 'MHP2', 'STR', 'LUK']
+1325: LOSE
+1326: [1330, 'MHP2', 'SKL']
+1327: LOSE
+1328: LOSE
+1329: LOSE
+1330: LOSE
+1331: [1343, 'MHP', 'SKL']
+1332: LOSE
+1333: [1343, 'MHP', 'SKL']
+1334: LOSE
+1335: [1343, 'MHP', 'SKL']
+1336: LOSE
+1337: [1343, 'MHP', 'SKL']
+1338: LOSE
+1339: [1343, 'MHP', 'SKL']
+1340: LOSE
+1341: [1347, 'MHP', 'SKL', 'SPD']
+1342: LOSE
+1343: [1351, 'MHP2', 'SKL']
+1344: [1348, 'MHP', 'SKL', 'DEF']
+1345: [1351, 'MHP2', 'SKL']
+1346: [1352, 'MHP', 'SKL']
+1347: [1355, 'MHP', 'LUK']
+1348: [1356, 'MHP', 'DEF']
+1349: [1355, 'MHP', 'LUK']
+1350: [1356, 'MHP', 'DEF']
+1351: LOSE
+1352: [1358, 'MHP', 'LUK']
+1353: [1361, 'MHP', 'STR', 'SPD', 'LUK', 'DEF']
+1354: [1358, 'MHP', 'LUK']
+1355: [1363, 'MHP', 'SKL', 'SPD', 'DEF']
+1356: [1360, 'MHP', 'SKL', 'LUK', 'DEF']
+1357: [1363, 'MHP', 'SKL', 'SPD', 'DEF']
+1358: LOSE
+1359: [1363, 'MHP', 'SKL', 'SPD', 'DEF']
+1360: LOSE
+1361: LOSE
+1362: [1366, 'MHP', 'STR', 'SKL', 'LUK']
+1363: LOSE
+1364: [1368, 'MHP', 'STR', 'SKL', 'LUK']
+1365: LOSE
+1366: [1370, 'MHP', 'STR', 'SKL']
+1367: LOSE
+1368: [1372, 'MHP', 'STR', 'SKL', 'DEF']
+1369: LOSE
+1370: [1374, 'MHP', 'STR', 'SKL']
+1371: LOSE
+1372: [1376, 'MHP', 'STR', 'SKL', 'LUK']
+1373: [1379, 'MHP', 'DEF']
+1374: [1378, 'MHP', 'STR', 'SKL']
+1375: [1379, 'MHP', 'DEF']
+1376: [1380, 'MHP', 'STR', 'LUK']
+1377: [1381, 'MHP', 'SPD']
+1378: [1382, 'MHP', 'SKL']
+1379: LOSE
+1380: [1384, 'MHP', 'STR']
+1381: LOSE
+1382: [1386, 'MHP', 'LUK', 'DEF']
+1383: [1391, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+1384: [1390, 'MHP', 'STR', 'SKL', 'SPD', 'LUK', 'DEF']
+1385: [1391, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+1386: [1392, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+1387: [1393, 'MHP', 'STR', 'SKL', 'LUK', 'DEF']
+1388: [1392, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+1389: [1393, 'MHP', 'STR', 'SKL', 'LUK', 'DEF']
+1390: [1394, 'MHP', 'STR', 'MGC', 'SPD', 'LUK']
+1391: LOSE
+1392: LOSE
+1393: LOSE
+1394: LOSE
+1395: [1399, 'MHP', 'SKL', 'LUK', 'DEF']
+1396: LOSE
+1397: [1403, 'MHP', 'STR', 'SKL', 'DEF']
+1398: LOSE
+1399: [1405, 'MHP', 'STR', 'SPD', 'DEF']
+1400: LOSE
+1401: [1405, 'MHP', 'STR', 'SPD', 'DEF']
+1402: LOSE
+1403: [1407, 'MHP', 'DEF']
+1404: LOSE
+1405: LOSE
+1406: [1410, 'MHP', 'STR', 'SKL']
+1407: LOSE
+1408: [1412, 'MHP', 'STR', 'DEF']
+1409: LOSE
+1410: [1414, 'MHP', 'SPD', 'DEF']
+1411: LOSE
+1412: [1420, 'MHP', 'SKL', 'SPD', 'DEF']
+1413: [1421, 'MHP', 'SKL', 'LUK']
+1414: LOSE
+1415: [1421, 'MHP', 'SKL', 'LUK']
+1416: LOSE
+1417: [1421, 'MHP', 'SKL', 'LUK']
+1418: LOSE
+1419: [1425, 'MHP', 'STR', 'SKL', 'LUK', 'DEF']
+1420: LOSE
+1421: [1427, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+1422: LOSE
+1423: [1427, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+1424: LOSE
+1425: [1429, 'MHP', 'STR', 'SPD', 'DEF']
+1426: LOSE
+1427: [1431, 'MHP', 'SPD', 'LUK']
+1428: LOSE
+1429: LOSE
+1430: [1434, 'MHP', 'STR', 'DEF']
+1431: LOSE
+1432: [1436, 'MHP']
+1433: LOSE
+1434: LOSE
+1435: [1439, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+1436: LOSE
+1437: [1441, 'MHP', 'STR', 'SKL', 'LUK', 'DEF']
+1438: LOSE
+1439: [1443, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+1440: LOSE
+1441: [1445, 'MHP', 'STR', 'SKL', 'LUK']
+1442: LOSE
+1443: [1447, 'MHP2', 'STR', 'SKL']
+1444: LOSE
+1445: [1449, 'MHP', 'STR', 'LUK']
+1446: LOSE
+1447: [1451, 'MHP', 'SKL', 'LUK']
+1448: LOSE
+1449: [1453, 'MHP', 'STR', 'SKL', 'DEF']
+1450: LOSE
+1451: [1455, 'MHP', 'STR', 'SPD']
+1452: LOSE
+1453: [1457, 'MHP', 'MGC']
+1454: LOSE
+1455: LOSE
+1456: [1466, 'MHP', 'SKL']
+1457: LOSE
+1458: [1466, 'MHP', 'SKL']
+1459: LOSE
+1460: [1468, 'MHP', 'STR', 'DEF']
+1461: LOSE
+1462: [1468, 'MHP', 'STR', 'DEF']
+1463: LOSE
+1464: [1468, 'MHP', 'STR', 'DEF']
+1465: LOSE
+1466: [1470, 'MHP', 'DEF']
+1467: [1475, 'MHP', 'STR', 'LUK', 'DEF']
+1468: LOSE
+1469: [1475, 'MHP', 'STR', 'LUK', 'DEF']
+1470: LOSE
+1471: [1477, 'MHP2', 'SKL', 'SPD', 'DEF']
+1472: LOSE
+1473: [1477, 'MHP2', 'SKL', 'SPD', 'DEF']
+1474: LOSE
+1475: [1481, 'MHP', 'SKL', 'LUK']
+1476: [1480, 'MHP', 'STR', 'SKL', 'LUK', 'DEF']
+1477: LOSE
+1478: [1482, 'MHP', 'STR', 'SKL']
+1479: LOSE
+1480: [1484, 'MHP', 'STR', 'DEF']
+1481: LOSE
+1482: [1486, 'MHP', 'SKL', 'SPD']
+1483: LOSE
+1484: [1490, 'MHP', 'SKL']
+1485: [1491, 'MHP', 'SKL']
+1486: LOSE
+1487: [1495, 'MHP', 'DEF']
+1488: [1494, 'MHP']
+1489: [1495, 'MHP', 'DEF']
+1490: [1502, 'MHP', 'LUK']
+1491: [1503, 'MHP', 'STR']
+1492: [1502, 'MHP', 'LUK']
+1493: [1503, 'MHP', 'STR']
+1494: [1504, 'MHP', 'SKL', 'DEF']
+1495: [1505, 'MHP', 'SKL', 'LUK']
+1496: [1504, 'MHP', 'SKL', 'DEF']
+1497: [1505, 'MHP', 'SKL', 'LUK']
+1498: [1504, 'MHP', 'SKL', 'DEF']
+1499: [1505, 'MHP', 'SKL', 'LUK']
+1500: [1504, 'MHP', 'SKL', 'DEF']
+1501: [1505, 'MHP', 'SKL', 'LUK']
+1502: LOSE
+1503: [1509, 'MHP', 'STR', 'SKL', 'DEF']
+1504: LOSE
+1505: [1511, 'MHP', 'STR', 'SPD']
+1506: LOSE
+1507: [1511, 'MHP', 'STR', 'SPD']
+1508: LOSE
+1509: [1513, 'MHP', 'MGC']
+1510: LOSE
+1511: LOSE
+1512: [1516, 'MHP', 'STR', 'LUK']
+1513: LOSE
+1514: [1518, 'MHP', 'SKL', 'LUK', 'DEF']
+1515: [1521, 'MHP', 'SKL', 'SPD', 'DEF']
+1516: [1522, 'MHP', 'STR', 'SKL', 'LUK', 'DEF']
+1517: [1521, 'MHP', 'SKL', 'SPD', 'DEF']
+1518: [1524, 'MHP', 'STR', 'SKL', 'SPD']
+1519: LOSE
+1520: [1524, 'MHP', 'STR', 'SKL', 'SPD']
+1521: LOSE
+1522: [1526, 'MHP', 'STR', 'SKL']
+1523: LOSE
+1524: [1528, 'MHP', 'STR', 'LUK', 'DEF']
+1525: LOSE
+1526: [1530, 'MHP', 'SKL', 'SPD', 'DEF']
+1527: LOSE
+1528: [1534, 'MHP', 'STR', 'MGC', 'SKL', 'SPD']
+1529: [1537, 'MHP', 'STR', 'SKL', 'LUK', 'MDF']
+1530: [1536, 'MHP2', 'STR', 'SKL', 'DEF']
+1531: [1537, 'MHP', 'STR', 'SKL', 'LUK', 'MDF']
+1532: [1536, 'MHP2', 'STR', 'SKL', 'DEF']
+1533: [1537, 'MHP', 'STR', 'SKL', 'LUK', 'MDF']
+1534: LOSE
+1535: [1539, 'MHP', 'STR', 'SKL', 'LUK']
+1536: LOSE
+1537: [1541, 'MHP', 'STR', 'SKL', 'LUK', 'MDF']
+1538: LOSE
+1539: [1543, 'MHP', 'STR', 'SKL', 'LUK', 'DEF']
+1540: LOSE
+1541: [1545, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+1542: LOSE
+1543: [1547, 'MHP', 'STR', 'SKL']
+1544: LOSE
+1545: [1549, 'MHP', 'STR']
+1546: LOSE
+1547: [1551, 'MHP']
+1548: LOSE
+1549: [1553, 'MHP']
+1550: [1554, 'MHP']
+1551: [1559, 'MHP', 'SKL']
+1552: [1562, 'MHP', 'SKL', 'DEF']
+1553: [1563, 'MHP', 'STR', 'LUK']
+1554: [1566, 'MHP', 'LUK']
+1555: [1563, 'MHP', 'STR', 'LUK']
+1556: [1566, 'MHP', 'LUK']
+1557: [1563, 'MHP', 'STR', 'LUK']
+1558: [1566, 'MHP', 'LUK']
+1559: [1565, 'MHP', 'SKL', 'DEF']
+1560: [1566, 'MHP', 'LUK']
+1561: [1565, 'MHP', 'SKL', 'DEF']
+1562: [1568, 'MHP', 'SKL', 'LUK']
+1563: [1569, 'MHP', 'SKL']
+1564: [1568, 'MHP', 'SKL', 'LUK']
+1565: [1573, 'MHP', 'SPD']
+1566: [1572, 'MHP', 'STR', 'LUK']
+1567: [1573, 'MHP', 'SPD']
+1568: [1574, 'MHP', 'SKL']
+1569: LOSE
+1570: [1574, 'MHP', 'SKL']
+1571: LOSE
+1572: [1578, 'MHP', 'STR']
+1573: LOSE
+1574: [1580, 'MHP', 'SKL', 'LUK']
+1575: LOSE
+1576: [1580, 'MHP', 'SKL', 'LUK']
+1577: LOSE
+1578: [1582, 'MHP', 'STR', 'SKL']
+1579: LOSE
+1580: [1584, 'MHP', 'STR']
+1581: LOSE
+1582: [1586, 'MHP']
+1583: LOSE
+1584: [1592, 'MHP', 'STR', 'SKL', 'DEF']
+1585: LOSE
+1586: [1594, 'MHP', 'STR', 'SPD', 'LUK', 'DEF']
+1587: LOSE
+1588: [1594, 'MHP', 'STR', 'SPD', 'LUK', 'DEF']
+1589: LOSE
+1590: [1594, 'MHP', 'STR', 'SPD', 'LUK', 'DEF']
+1591: LOSE
+1592: [1596, 'MHP', 'SKL', 'LUK', 'DEF']
+1593: LOSE
+1594: [1600, 'MHP', 'STR']
+1595: [1599, 'MHP2', 'STR', 'SKL']
+1596: LOSE
+1597: [1601, 'MHP2', 'STR', 'DEF']
+1598: LOSE
+1599: LOSE
+1600: LOSE
+1601: [1605, 'MHP', 'LUK']
+1602: [1610, 'MHP', 'SPD', 'LUK']
+1603: LOSE
+1604: [1610, 'MHP', 'SPD', 'LUK']
+1605: LOSE
+1606: [1610, 'MHP', 'SPD', 'LUK']
+1607: LOSE
+1608: LOSE
+1609: [1613, 'MHP', 'STR', 'LUK', 'DEF', 'MDF']
+1610: LOSE
+1611: [1615, 'MHP', 'SKL', 'SPD', 'LUK']
+1612: LOSE
+1613: [1617, 'MHP', 'STR', 'SKL', 'DEF']
+1614: LOSE
+1615: [1619, 'MHP', 'STR', 'SKL', 'SPD']
+1616: LOSE
+1617: [1621, 'MHP', 'STR']
+1618: LOSE
+1619: [1623, 'MHP']
+1620: LOSE
+1621: [1631, 'MHP', 'STR', 'SKL', 'LUK', 'DEF']
+1622: [1632, 'MHP', 'STR', 'SPD', 'LUK', 'DEF']
+1623: [1633, 'MHP2', 'STR', 'SKL', 'SPD', 'LUK', 'DEF']
+1624: [1634, 'MHP2', 'SKL', 'LUK']
+1625: [1633, 'MHP2', 'STR', 'SKL', 'SPD', 'LUK', 'DEF']
+1626: [1634, 'MHP2', 'SKL', 'LUK']
+1627: [1633, 'MHP2', 'STR', 'SKL', 'SPD', 'LUK', 'DEF']
+1628: [1634, 'MHP2', 'SKL', 'LUK']
+1629: [1633, 'MHP2', 'STR', 'SKL', 'SPD', 'LUK', 'DEF']
+1630: [1634, 'MHP2', 'SKL', 'LUK']
+1631: [1635, 'MHP', 'STR', 'SKL']
+1632: LOSE
+1633: [1637, 'MHP', 'STR', 'LUK']
+1634: LOSE
+1635: [1639, 'MHP', 'SKL']
+1636: LOSE
+1637: LOSE
+1638: LOSE
+1639: [1647, 'MHP', 'SKL', 'DEF']
+1640: LOSE
+1641: [1647, 'MHP', 'SKL', 'DEF']
+1642: LOSE
+1643: [1651, 'MHP', 'DEF']
+1644: LOSE
+1645: [1651, 'MHP', 'DEF']
+1646: LOSE
+1647: LOSE
+1648: [1658, 'MHP', 'SKL', 'LUK']
+1649: LOSE
+1650: [1658, 'MHP', 'SKL', 'LUK']
+1651: LOSE
+1652: [1658, 'MHP', 'SKL', 'LUK']
+1653: LOSE
+1654: [1662, 'MHP', 'STR', 'DEF']
+1655: [1661, 'MHP', 'SKL']
+1656: [1662, 'MHP', 'STR', 'DEF']
+1657: [1661, 'MHP', 'SKL']
+1658: [1664, 'MHP', 'SPD', 'LUK', 'DEF']
+1659: [1665, 'MHP', 'SKL', 'SPD', 'LUK']
+1660: [1664, 'MHP', 'SPD', 'LUK', 'DEF']
+1661: [1669, 'MHP', 'STR', 'SKL', 'DEF']
+1662: [1670, 'MHP', 'SKL', 'LUK']
+1663: [1669, 'MHP', 'STR', 'SKL', 'DEF']
+1664: LOSE
+1665: [1671, 'MHP', 'STR', 'DEF']
+1666: LOSE
+1667: [1671, 'MHP', 'STR', 'DEF']
+1668: LOSE
+1669: [1673, 'MHP', 'SPD']
+1670: LOSE
+1671: LOSE
+1672: [1676, 'MHP', 'STR', 'SPD', 'DEF']
+1673: LOSE
+1674: [1678, 'MHP', 'DEF']
+1675: LOSE
+1676: LOSE
+1677: [1681, 'MHP', 'STR', 'SKL', 'DEF']
+1678: LOSE
+1679: [1683, 'MHP', 'STR', 'SPD']
+1680: LOSE
+1681: [1685, 'MHP', 'MGC']
+1682: LOSE
+1683: LOSE
+1684: [1690, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+1685: LOSE
+1686: [1690, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+1687: LOSE
+1688: [1692, 'MHP', 'STR', 'SKL']
+1689: LOSE
+1690: [1694, 'MHP', 'STR', 'LUK', 'DEF']
+1691: LOSE
+1692: [1696, 'MHP', 'SKL', 'SPD', 'DEF']
+1693: LOSE
+1694: [1700, 'MHP2', 'DEF']
+1695: LOSE
+1696: LOSE
+1697: [1703, 'MHP', 'SKL', 'SPD']
+1698: LOSE
+1699: [1703, 'MHP', 'SKL', 'SPD']
+1700: LOSE
+1701: [1707, 'MHP', 'SKL', 'DEF']
+1702: LOSE
+1703: [1711, 'MHP', 'MGC', 'SPD']
+1704: LOSE
+1705: [1711, 'MHP', 'MGC', 'SPD']
+1706: LOSE
+1707: [1713, 'MHP2', 'MGC', 'SKL', 'LUK', 'DEF']
+1708: [1716, 'MHP', 'SKL', 'SPD']
+1709: [1713, 'MHP2', 'MGC', 'SKL', 'LUK', 'DEF']
+1710: [1716, 'MHP', 'SKL', 'SPD']
+1711: LOSE
+1712: [1716, 'MHP', 'SKL', 'SPD']
+1713: LOSE
+1714: [1718, 'MHP', 'STR', 'DEF']
+1715: [1719, 'MHP', 'STR', 'LUK', 'DEF']
+1716: [1720, 'MHP', 'SPD', 'LUK']
+1717: [1721, 'MHP', 'SKL', 'DEF']
+1718: LOSE
+1719: [1725, 'MHP', 'SPD', 'LUK']
+1720: LOSE
+1721: LOSE
+1722: [1728, 'MHP', 'STR']
+1723: LOSE
+1724: [1728, 'MHP', 'STR']
+1725: LOSE
+1726: [1730, 'MHP2', 'DEF']
+1727: LOSE
+1728: LOSE
+1729: [1733, 'MHP', 'SKL', 'SPD', 'DEF']
+1730: LOSE
+1731: [1737, 'MHP', 'SKL', 'SPD', 'DEF']
+1732: LOSE
+1733: LOSE
+1734: [1738, 'MHP', 'STR', 'SKL', 'LUK', 'DEF']
+1735: LOSE
+1736: [1740, 'MHP', 'STR', 'SKL', 'SPD', 'LUK']
+1737: LOSE
+1738: [1742, 'MHP', 'STR', 'SKL', 'LUK', 'DEF']
+1739: LOSE
+1740: [1744, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+1741: LOSE
+1742: [1746, 'MHP', 'STR', 'LUK', 'DEF']
+1743: LOSE
+1744: [1748, 'MHP', 'SKL', 'SPD', 'DEF']
+1745: LOSE
+1746: LOSE
+1747: [1751, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+1748: LOSE
+1749: [1753, 'MHP', 'STR', 'SKL', 'LUK', 'DEF']
+1750: LOSE
+1751: [1755, 'MHP', 'STR', 'SKL']
+1752: LOSE
+1753: [1757, 'MHP', 'STR', 'LUK']
+1754: [1758, 'MHP', 'STR', 'SPD']
+1755: LOSE
+1756: [1760, 'MHP']
+1757: LOSE
+1758: LOSE
+1759: [1765, 'MHP']
+1760: [1768, 'MHP', 'SKL', 'LUK', 'DEF']
+1761: [1765, 'MHP']
+1762: [1768, 'MHP', 'SKL', 'LUK', 'DEF']
+1763: [1771, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+1764: [1772, 'MHP', 'STR', 'MGC', 'SKL', 'LUK']
+1765: [1773, 'MHP', 'STR', 'SPD']
+1766: [1772, 'MHP', 'STR', 'MGC', 'SKL', 'LUK']
+1767: [1773, 'MHP', 'STR', 'SPD']
+1768: [1774, 'MHP2', 'STR', 'SKL']
+1769: [1773, 'MHP', 'STR', 'SPD']
+1770: [1774, 'MHP2', 'STR', 'SKL']
+1771: [1775, 'MHP2', 'DEF']
+1772: [1776, 'MHP', 'STR', 'LUK', 'DEF']
+1773: LOSE
+1774: [1778, 'MHP', 'SKL', 'SPD', 'LUK', 'DEF']
+1775: LOSE
+1776: [1782, 'MHP2', 'STR', 'SKL', 'DEF']
+1777: LOSE
+1778: [1784, 'MHP', 'STR']
+1779: LOSE
+1780: [1784, 'MHP', 'STR']
+1781: LOSE
+1782: LOSE
+1783: LOSE
+1784: LOSE
+1785: [1789, 'MHP', 'SKL', 'SPD']
+1786: LOSE
+1787: [1793, 'MHP2', 'LUK', 'DEF']
+1788: LOSE
+1789: [1799, 'MHP', 'SKL', 'SPD', 'LUK', 'DEF', 'MDF']
+1790: [1800, 'MHP', 'STR', 'SKL', 'SPD', 'LUK', 'DEF']
+1791: [1799, 'MHP', 'SKL', 'SPD', 'LUK', 'DEF', 'MDF']
+1792: [1800, 'MHP', 'STR', 'SKL', 'SPD', 'LUK', 'DEF']
+1793: LOSE
+1794: [1802, 'MHP', 'STR', 'SKL', 'SPD', 'LUK', 'DEF', 'MDF']
+1795: LOSE
+1796: [1802, 'MHP', 'STR', 'SKL', 'SPD', 'LUK', 'DEF', 'MDF']
+1797: LOSE
+1798: [1802, 'MHP', 'STR', 'SKL', 'SPD', 'LUK', 'DEF', 'MDF']
+1799: LOSE
+1800: [1804, 'MHP2', 'STR', 'MGC', 'SKL', 'LUK']
+1801: LOSE
+1802: LOSE
+1803: LOSE
+1804: LOSE
+1805: LOSE
+1806: LOSE
+1807: LOSE
+1808: LOSE
+1809: [1817, 'MHP', 'SKL', 'SPD', 'LUK']
+1810: [1818, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+1811: [1817, 'MHP', 'SKL', 'SPD', 'LUK']
+1812: [1818, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+1813: [1821, 'MHP2', 'STR', 'SKL', 'SPD', 'LUK', 'DEF']
+1814: [1820, 'MHP', 'STR', 'MGC', 'SPD', 'LUK', 'DEF']
+1815: [1821, 'MHP2', 'STR', 'SKL', 'SPD', 'LUK', 'DEF']
+1816: [1820, 'MHP', 'STR', 'MGC', 'SPD', 'LUK', 'DEF']
+1817: LOSE
+1818: [1822, 'MHP2', 'SKL', 'SPD', 'LUK', 'DEF']
+1819: [1823, 'MHP', 'STR', 'SKL', 'SPD', 'LUK', 'MDF']
+1820: LOSE
+1821: [1825, 'MHP', 'STR', 'SKL', 'LUK']
+1822: LOSE
+1823: [1827, 'MHP', 'STR', 'SKL']
+1824: LOSE
+1825: LOSE
+1826: LOSE
+1827: [1831, 'MHP', 'SKL', 'SPD', 'LUK']
+1828: LOSE
+1829: [1835, 'MHP', 'STR', 'DEF']
+1830: LOSE
+1831: [1837, 'MHP', 'SPD', 'LUK']
+1832: LOSE
+1833: [1837, 'MHP', 'SPD', 'LUK']
+1834: LOSE
+1835: LOSE
+1836: [1840, 'MHP', 'STR']
+1837: [1853, 'MHP', 'STR', 'SKL', 'LUK']
+1838: [1842, 'MHP']
+1839: [1853, 'MHP', 'STR', 'SKL', 'LUK']
+1840: [1850, 'MHP', 'SKL', 'SPD', 'LUK', 'DEF']
+1841: [1853, 'MHP', 'STR', 'SKL', 'LUK']
+1842: [1854, 'MHP', 'STR', 'SPD']
+1843: [1855, 'MHP2', 'STR', 'SKL']
+1844: [1854, 'MHP', 'STR', 'SPD']
+1845: [1855, 'MHP2', 'STR', 'SKL']
+1846: [1854, 'MHP', 'STR', 'SPD']
+1847: [1855, 'MHP2', 'STR', 'SKL']
+1848: [1854, 'MHP', 'STR', 'SPD']
+1849: [1855, 'MHP2', 'STR', 'SKL']
+1850: [1856, 'MHP']
+1851: [1855, 'MHP2', 'STR', 'SKL']
+1852: [1856, 'MHP']
+1853: LOSE
+1854: LOSE
+1855: [1859, 'MHP', 'SKL']
+1856: LOSE
+1857: [1863, 'MHP', 'STR', 'SKL', 'SPD']
+1858: [1866, 'MHP', 'STR', 'SPD']
+1859: [1865, 'MHP', 'STR', 'LUK']
+1860: [1866, 'MHP', 'STR', 'SPD']
+1861: [1865, 'MHP', 'STR', 'LUK']
+1862: [1868, 'MHP', 'LUK']
+1863: [1867, 'MHP', 'SKL', 'DEF']
+1864: [1868, 'MHP', 'LUK']
+1865: [1871, 'MHP', 'STR']
+1866: [1874, 'MHP', 'LUK']
+1867: [1873, 'MHP', 'SKL', 'DEF']
+1868: [1876, 'MHP', 'SKL']
+1869: [1873, 'MHP', 'SKL', 'DEF']
+1870: [1876, 'MHP', 'SKL']
+1871: [1877, 'MHP', 'STR', 'DEF']
+1872: [1876, 'MHP', 'SKL']
+1873: [1879, 'MHP', 'SPD', 'LUK', 'MDF']
+1874: [1880, 'MHP', 'SKL', 'SPD', 'DEF', 'MDF']
+1875: [1879, 'MHP', 'SPD', 'LUK', 'MDF']
+1876: [1882, 'MHP', 'STR', 'SPD', 'LUK', 'DEF']
+1877: LOSE
+1878: [1882, 'MHP', 'STR', 'SPD', 'LUK', 'DEF']
+1879: LOSE
+1880: [1884, 'MHP', 'MGC', 'SKL', 'SPD']
+1881: [1887, 'MHP2', 'STR', 'SPD']
+1882: [1886, 'MHP2', 'STR', 'LUK']
+1883: [1887, 'MHP2', 'STR', 'SPD']
+1884: LOSE
+1885: [1889, 'MHP']
+1886: LOSE
+1887: LOSE
+1888: [1892, 'MHP', 'DEF']
+1889: [1899, 'MHP2', 'STR', 'SKL', 'DEF']
+1890: [1900, 'MHP', 'LUK']
+1891: [1899, 'MHP2', 'STR', 'SKL', 'DEF']
+1892: LOSE
+1893: [1899, 'MHP2', 'STR', 'SKL', 'DEF']
+1894: LOSE
+1895: [1901, 'MHP', 'STR', 'DEF', 'MDF']
+1896: LOSE
+1897: [1901, 'MHP', 'STR', 'DEF', 'MDF']
+1898: LOSE
+1899: [1903, 'MHP', 'SPD', 'LUK']
+1900: [1906, 'MHP', 'STR', 'MGC', 'SPD', 'LUK', 'DEF']
+1901: LOSE
+1902: [1906, 'MHP', 'STR', 'MGC', 'SPD', 'LUK', 'DEF']
+1903: LOSE
+1904: [1908, 'MHP2', 'SKL', 'DEF']
+1905: LOSE
+1906: LOSE
+1907: [1911, 'MHP', 'STR', 'SKL']
+1908: LOSE
+1909: [1913, 'MHP', 'STR', 'LUK']
+1910: LOSE
+1911: [1915, 'MHP', 'SKL']
+1912: LOSE
+1913: [1919, 'MHP', 'DEF']
+1914: LOSE
+1915: [1927, 'MHP', 'SPD']
+1916: [1926, 'MHP', 'SKL', 'LUK']
+1917: [1927, 'MHP', 'SPD']
+1918: [1926, 'MHP', 'SKL', 'LUK']
+1919: LOSE
+1920: [1930, 'MHP', 'STR', 'SPD', 'DEF']
+1921: LOSE
+1922: [1930, 'MHP', 'STR', 'SPD', 'DEF']
+1923: LOSE
+1924: [1930, 'MHP', 'STR', 'SPD', 'DEF']
+1925: LOSE
+1926: [1932, 'MHP', 'SPD', 'LUK', 'DEF']
+1927: LOSE
+1928: [1932, 'MHP', 'SPD', 'LUK', 'DEF']
+1929: LOSE
+1930: LOSE
+1931: [1937, 'MHP', 'STR']
+1932: LOSE
+1933: [1937, 'MHP', 'STR']
+1934: LOSE
+1935: [1939, 'MHP', 'DEF']
+1936: LOSE
+1937: LOSE
+1938: [1942, 'MHP', 'SKL', 'SPD', 'DEF']
+1939: LOSE
+1940: [1946, 'MHP', 'SKL', 'DEF', 'MDF']
+1941: LOSE
+1942: LOSE
+1943: [1949, 'MHP', 'SKL', 'SPD', 'LUK']
+1944: LOSE
+1945: [1949, 'MHP', 'SKL', 'SPD', 'LUK']
+1946: LOSE
+1947: [1953, 'MHP2', 'STR', 'SKL', 'DEF']
+1948: LOSE
+1949: LOSE
+1950: LOSE
+1951: [1955, 'MHP', 'STR', 'SKL', 'SPD', 'LUK', 'DEF']
+1952: LOSE
+1953: [1957, 'MHP', 'STR', 'MGC', 'SKL', 'LUK', 'MDF']
+1954: LOSE
+1955: [1959, 'MHP2', 'STR', 'SKL', 'LUK']
+1956: [1960, 'MHP2', 'STR', 'SPD']
+1957: [1961, 'MHP', 'STR', 'SKL']
+1958: [1962, 'MHP2', 'MGC']
+1959: LOSE
+1960: LOSE
+1961: [1965, 'MHP', 'DEF']
+1962: LOSE
+1963: [1971, 'MHP', 'LUK']
+1964: [1972, 'MHP']
+1965: [1977, 'MHP']
+1966: [1972, 'MHP']
+1967: [1977, 'MHP']
+1968: LOSE
+1969: [1977, 'MHP']
+1970: LOSE
+1971: [1983, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+1972: LOSE
+1973: [1983, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+1974: LOSE
+1975: [1983, 'MHP', 'STR', 'SKL', 'SPD', 'DEF']
+1976: LOSE
+1977: [1985, 'MHP', 'STR']
+1978: LOSE
+1979: [1985, 'MHP', 'STR']
+1980: LOSE
+1981: [1985, 'MHP', 'STR']
+1982: LOSE
+1983: [1987, 'MHP', 'DEF']
+1984: LOSE
+1985: LOSE
+1986: [1990, 'MHP', 'SKL', 'SPD', 'LUK']
+1987: LOSE
+1988: [1994, 'MHP2', 'STR', 'SPD']
+1989: LOSE
+1990: [1996, 'MHP']
+1991: [1995, 'MHP', 'SKL']
+1992: [1996, 'MHP']
+1993: LOSE
+1994: LOSE
+1995: [2005, 'MHP', 'STR']
+1996: [2004, 'MHP', 'STR']
+1997: [2005, 'MHP', 'STR']
+1998: [2004, 'MHP', 'STR']
+1999: [2007, 'MHP', 'DEF', 'MDF']

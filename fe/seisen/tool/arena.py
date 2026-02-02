@@ -2,39 +2,39 @@ import json
 
 
 CONFIG = {
-    'start_index': 38348,
-    'first_attack': 'enemy',
+    'start_index': 0,
+    'first_attack': 'player',
     'player': {
-        'hp': 34,
-        'hit': 54,
-        'def': 8,
-        'atk': 35,
-        'lev': 11,
-        'spd': 7,
-        'skl': 26,
-        'skl2': 26,
-        'skill': ['', 'renzoku', '', ''],
+        'hp': 31,
+        'hit': 78,
+        'def': 6,
+        'atk': 21,
+        'lev': 4,
+        'spd': 1,
+        'skl': 13,
+        'skl2': 13,
+        'skill': ['hissatsu', '', '', ''],
         'grow': {
-            'mhp': 90,
-            'str': 10,
-            'mgc': 100,
-            'skl': 20,
+            'mhp': 60,
+            'str': 30,
+            'mgc': 5,
+            'skl': 30,
             'spd': 30,
-            'luk': 30,
-            'def': 10,
-            'mdf': 50,
+            'luk': 20,
+            'def': 20,
+            'mdf': 10,
         },
     },
     'enemy': {
-        'hp': 44,
-        'hit': 60,
-        'def': 1,
-        'atk': 21,
-        'lev': 14,
+        'hp': 59,
+        'hit': 29,
+        'def': 17,
+        'atk': 31,
+        'lev': 19,
         'spd': 15,
         #'spd': 3,
         'skl': 20,
-        'skill': ['tsuigeki', ''],
+        'skill': ['ootate', ''],
     }
 }
 
@@ -488,6 +488,6 @@ def next_rand():
     return r
 
 
-for i in range(CONFIG['start_index'], CONFIG['start_index'] + 1000):
+for i in range(CONFIG['start_index'], CONFIG['start_index'] + 3000):
     rand_index = i
     battle()
